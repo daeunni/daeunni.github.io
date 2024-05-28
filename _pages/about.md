@@ -17,15 +17,16 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Thanks for visiting my website! ✨      
-I am an incoming CS PhD student at UNC-Chapel Hill, [MURGe-Lab](https://murgelab.cs.unc.edu/) (Advisor: [Prof.Mohit Bansal](https://www.cs.unc.edu/~mbansal/)).    
-Before starting PhD, I was advised by [Prof.Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University and [Prof.Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST.      
-I am interested in <span style='background-color: #ffffdd'>Robust / Interpretable AI</span> and pursuing to build applicable models to make contributions to the real world!             
-In particular, I want to make <span style='background-color: #ffffdd'>user-interactive AI</span> which can help underrepresented people all around the world.      
+I am an incoming CS PhD student at UNC-Chapel Hill, [MURGe-Lab](https://murgelab.cs.unc.edu/) (Advisor: [Prof.Mohit Bansal](https://www.cs.unc.edu/~mbansal/)).     
+Before starting PhD, I was advised by [Prof.Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University and [Prof.Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST.               
 
-My current research interests include 
+My ultimate research goal aligns with making <span style='background-color: #ffffdd'>User-Interactive AI</span> which can help underrepresented people all around the world.
+I enjoyed my undergraduate research journey focusing on <span style='background-color: #ffffdd'>Autonomous Driving</span> and <span style='background-color: #ffffdd'>Out-of-Distribution Generalization</span> problems. Autonomous Driving was also aligned with my ultimate research goal since it is an impactful technology for every person.      
+
+💭 My current research interests include 
 - <span style='background-color: #ffffdd'>**User-Interactive Multimodal**</span>
+- <span style='background-color: #ffffdd'>**Faithfulness**</span>
 - <span style='background-color: #ffffdd'>**Out-of-Distribution Generalization**</span>
-- <span style='background-color: #ffffdd'>**Continual Learning**</span>
 
 
 
@@ -50,7 +51,7 @@ My current research interests include
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div><img src='images/new_hdmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div><img src='images/hdmap_v2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - **HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization** 
