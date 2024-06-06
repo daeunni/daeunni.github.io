@@ -32,7 +32,7 @@ I enjoyed my undergraduate research journey focusing on <span style='background-
 
 
 # 🔥 News
-- *2024.06*: &nbsp;✈ Travel Grant from ICML'24 Organizers!
+- *2024.06*: &nbsp;🛫 Travel Grant from ICML'24 Organizers!
 - *2024.05*: &nbsp;🎉 One paper got accepted to <span style='background-color: #ffe9f4'>**ICML'24**</span> &nbsp;
 - *2024.04*: &nbsp;🎉 One paper got accepted to <span style='background-color: #ffe9f4'>**CVPRW'24**</span> &nbsp;
 - *2024.03*: &nbsp;🎓 I received BE degree at KU and will start PhD journey at the University of North Carolina at Chapel Hill [MURGe-Lab](https://murgelab.cs.unc.edu/)!
