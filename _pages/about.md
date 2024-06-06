@@ -32,6 +32,7 @@ I enjoyed my undergraduate research journey focusing on <span style='background-
 
 
 # 🔥 News
+- *2024.06*: &nbsp;✈ Travel Grant from ICML'24 Organizers!
 - *2024.05*: &nbsp;🎉 One paper got accepted to <span style='background-color: #ffe9f4'>**ICML'24**</span> &nbsp;
 - *2024.04*: &nbsp;🎉 One paper got accepted to <span style='background-color: #ffe9f4'>**CVPRW'24**</span> &nbsp;
 - *2024.03*: &nbsp;🎓 I received BE degree at KU and will start PhD journey at the University of North Carolina at Chapel Hill [MURGe-Lab](https://murgelab.cs.unc.edu/)!
@@ -92,9 +93,8 @@ I enjoyed my undergraduate research journey focusing on <span style='background-
 -----
 
 # 📖 Educations
+- *2024.08 - 2029.05 (expected)*, **Ph.D.** in Computer Science. UNC-Chaple Hill. 
 - *2019.03 - 2024.02*, **B.E.** in Statistics. Korea University. (GPA: 4.0/4.5)
-  
-  - *2020 - 2024*, **Special Scholarship** for outstanding students.
 
 -----
 
@@ -117,6 +117,8 @@ I enjoyed my undergraduate research journey focusing on <span style='background-
 -----
 
 # 🎖 Honors and Awards
+- *2024.06*, <span style='background-color: #f1f8ff'>**Travel Grant from ICML2024 Organizers**</span>
+- *2020 - 2024*, <span style='background-color: #f1f8ff'>**Special Scholarship**</span> for outstanding students from Korea University.
 - *2021.12*, <span style='background-color: #f1f8ff'>**5st place**</span>, ICT Autonomous Driving Project
 - *2021.05*, <span style='background-color: #f1f8ff'>**2nd place**</span>, [Digital Innovation Big Data Contest](https://github.com/daeunni/KED_Project)
 - *2020.12*, <span style='background-color: #f1f8ff'>**1st place**</span>, [Financial Big Data Festival](https://github.com/daeunni/Insurance-contest)
@@ -125,7 +127,7 @@ I enjoyed my undergraduate research journey focusing on <span style='background-
 
 ----
 # 🏫 Teaching Assistant
-- *2023.03 - current*, Computer Vision Mentor, 5th/6th NAVER BoostCamp
+- *2023.03 - current*, Computer Vision Mentor, 5th/6th/7th NAVER BoostCamp
 - *2022.06 - 2022.10*, Computer Vision Mentor, YearDream School
 
 -----
