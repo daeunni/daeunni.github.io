@@ -55,7 +55,7 @@ I enjoyed my undergraduate research journey focusing on <span style='background-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div><img src='images/hdmap_v2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- **HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization** 
+- **HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization** [[paper]](https://arxiv.org/pdf/2311.16589)
   - <u>Daeun Lee</u>, Minhyeok Heo, Jiwon Kim
   - This work was done at <span style='background-color: #f1f8ff'>NAVER LABS</span>. 
 </div>
@@ -99,17 +99,15 @@ I enjoyed my undergraduate research journey focusing on <span style='background-
 -----
 
 # 💻 Research Experiences
-- <span style='background-color: #f1f8ff'>**CVPR 2022, ECCV 2022, CVPR 2024, ECCV 2024 Reviewer**</span>
-
-- *2024.03 - current*, <span style='background-color: #f1f8ff'>**Contract Researcher**</span>, **[MLAI Lab](https://www.mlai-kaist.com/)**, South Korea.
+- *2024.03 - current*, <span style='background-color: #f1f8ff'>**Contract Researcher**</span>, **[MLAI Lab, KAIST](https://www.mlai-kaist.com/)**, South Korea.
       
-- *2023.03 - 2024.02*, <span style='background-color: #f1f8ff'>**Research Intern**</span>, **[MLAI Lab](https://www.mlai-kaist.com/)**, South Korea.
+- *2023.03 - 2024.02*, <span style='background-color: #f1f8ff'>**Research Intern**</span>, **[MLAI Lab, KAIST](https://www.mlai-kaist.com/)**, South Korea.
     - Under the supervision of Prof. Sung Ju Hwang
   
 - *2022.07 - 2022.12*, <span style='background-color: #f1f8ff'>**Research Intern**</span>, **[NAVER LABS](https://www.naverlabs.com/)**, South Korea.
     - Autonomous Driving Perception team
       
-- *2021.06 - 2022.12*, <span style='background-color: #f1f8ff'>**Research Intern**</span>, **[VAI Lab](https://visionai.korea.ac.kr/)**, South Korea.
+- *2021.06 - 2022.12*, <span style='background-color: #f1f8ff'>**Research Intern**</span>, **[VAI Lab, Korea Univ](https://visionai.korea.ac.kr/)**, South Korea.
     - Under the supervision of Prof. Jinkyu Kim
       
 - *2021.01 - 2021.02*, **Data Analyst Intern**, [Mirae Asset Securities](https://life.miraeasset.com/home/index.do#MO-HO-000000-000000), South Korea.
@@ -123,13 +121,12 @@ I enjoyed my undergraduate research journey focusing on <span style='background-
 - *2021.05*, <span style='background-color: #f1f8ff'>**2nd place**</span>, [Digital Innovation Big Data Contest](https://github.com/daeunni/KED_Project)
 - *2020.12*, <span style='background-color: #f1f8ff'>**1st place**</span>, [Financial Big Data Festival](https://github.com/daeunni/Insurance-contest)
 - *2020.05*, <span style='background-color: #f1f8ff'>**TOP 2%**</span>, [KAKAO ARENA](https://github.com/daeunni/kakao-arena)
-  
 
 ----
-# 🏫 Teaching Assistant
-- *2023.03 - current*, Computer Vision Mentor, 5th/6th/7th NAVER BoostCamp
-- *2022.06 - 2022.10*, Computer Vision Mentor, YearDream School
-
+# 💌 Academic Services
+- <span style='background-color: #f1f8ff'>**Reviewer**</span> : CVPR 2022,2024, ECCV 2022,2024 
+- <span style='background-color: #f1f8ff'>**Volunteer**</span> : ICML 2024 
+  
 -----
 
 # 💐 Acknowledgement   
