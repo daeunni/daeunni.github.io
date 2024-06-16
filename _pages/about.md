@@ -21,7 +21,7 @@ I am an incoming CS PhD student at UNC-Chapel Hill, [MURGe-Lab](https://murgelab
 Before starting PhD, I was advised by [Prof.Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University and [Prof.Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST.               
 
 My ultimate research goal aligns with making <span style='background-color: #ffffdd'>User-Interactive AI</span> that can help underrepresented people all around the world.
-I enjoyed my undergraduate research journey focusing on <span style='background-color: #ffffdd'>Autonomous Driving</span> and <span style='background-color: #ffffdd'>Out-of-Distribution Generalization</span> problems. Autonomous Driving was also aligned with my ultimate research goal since it is an impactful technology for every person.      
+I enjoyed my undergraduate research journey focusing on <span style='background-color: #ffffdd'>Autonomous Driving</span> and <span style='background-color: #ffffdd'>Out-of-Distribution Generalization</span> problems. Autonomous Driving was also aligned with my ultimate research goal since it is an impactful technology for every person. Here is my [CV](https://drive.google.com/file/d/1nmV0BkbiT4YyFR5XZ2mrBTJNvF3uZx2k/view?usp=sharing).             
 
 💭 My current research interests include 
 - <span style='background-color: #ffffdd'>**User-Interactive Multimodal**</span>
