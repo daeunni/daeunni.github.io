@@ -5,9 +5,7 @@ main:
     conference_short: ICML
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2402.08712
-    page: https://becotta-ctta.github.io/
     code: https://github.com/daeunni/BECoTTA
-    bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/becotta_v2.png
 
   - title: "Dynamic Domains, Dynamic Solutions: DPCore for Continual Test-Time Adaptation"
