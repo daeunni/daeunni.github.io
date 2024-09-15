@@ -1,22 +1,32 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
+  - title: BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation
+    authors: <strong>Daeun Lee*</strong>, Jaehong Yoon*, Sung Ju Hwang 
+    conference_short: ICML
+    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2402.08712
+    page: https://becotta-ctta.github.io/
+    code: https://github.com/daeunni/BECoTTA
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+    image: ./assets/img/becotta_v2.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization"
+    authors: <strong>Daeun Lee</strong>, Minhyeok Heo, Jiwon Kim
+    conference_short: CVPRW
+    conference: CVPR Data-Driven Autonomous Driving Simulation Workshop <strong>(CVPRW)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2311.16589
+    image: ./assets/img/new_hdmap.png
+
+  - title: "Resolving Class Imbalance for LiDAR-based Object Detector by Dynamic Weight Average and Contextual Ground Truth Sampling"
+    authors: <strong>Daeun Lee</strong>, Jinkyu Kim
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2023.
+    pdf: https://openaccess.thecvf.com/content/WACV2023/papers/Lee_Resolving_Class_Imbalance_for_LiDAR-Based_Object_Detector_by_Dynamic_Weight_WACV_2023_paper.pdf
+    image: ./assets/img/wacv23.png
+
+  - title: "Bridging the Domain Gap towards Generalization in Automatic Colorization"
+    authors: Hyejin Lee, Daehee Kim, <strong>Daeun Lee</strong>, Jinkyu Kim, Jaekoo Lee
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2022.
+    pdf: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770530.pdf
+    image: ./assets/img/eccv22.png
