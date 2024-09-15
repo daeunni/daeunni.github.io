@@ -5,8 +5,8 @@ layout: homepage
 ## About Me
 
 Thanks for visiting my website! ✨      
-I am a 1st-year Ph.D. student at UNC Chapel Hill, [MURGe-Lab](https://murgelab.cs.unc.edu/) (Advisor: [Prof.Mohit Bansal](https://www.cs.unc.edu/~mbansal/)).     
-Previously, I was advised by [Prof.Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University and [Prof.Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST.     
+I am a 1st-year Ph.D. student at UNC Chapel Hill, [MURGe-Lab](https://murgelab.cs.unc.edu/) (Advisor: Prof.[Mohit Bansal](https://www.cs.unc.edu/~mbansal/)).     
+Previously, I was advised by Prof.[Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University and Prof.[Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST.     
 
 ## Research Interests
 
@@ -16,7 +16,7 @@ Previously, I was advised by [Prof.Jinkyu Kim](https://visionai.korea.ac.kr/) at
 
 ## News
 
-- **[Aug. 2024]** 🏫 I started PhD journey at the University of North Carolina at Chapel Hill [MURGe-Lab](https://murgelab.cs.unc.edu/)!
+- **[Aug. 2024]** 🏫 I started PhD journey at the UNC Chapel Hill [MURGe-Lab](https://murgelab.cs.unc.edu/)!
 - **[May. 2024]** One paper got accepted to ICML2024 🇦🇹
 - **[Apr. 2024]** One paper got accepted to CVPRW2024 🇺🇸
 - **[Jan. 2023]** One paper is oral-presented at WACV2023 🏝️
