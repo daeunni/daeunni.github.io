@@ -5,8 +5,8 @@ layout: homepage
 ## About Me
 
 Thanks for visiting my website! ✨      
-I am a 1st-year Ph.D. student at UNC Chapel Hill, [MURGe-Lab](https://murgelab.cs.unc.edu/) (Advisor: Prof.[Mohit Bansal](https://www.cs.unc.edu/~mbansal/)).     
-Previously, I was advised by Prof.[Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University and Prof.[Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST.     
+I am a 1st-year Ph.D. student at UNC Chapel Hill, [MURGe-Lab](https://murgelab.cs.unc.edu/) (Advisor: Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)).     
+Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University and Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST.     
 
 ## Research Interests
 
