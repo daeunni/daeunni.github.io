@@ -1,6 +1,6 @@
 main:
 
-  - title: BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation
+  - title: "BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation"
     authors: <strong>Daeun Lee*</strong>, Jaehong Yoon*, Sung Ju Hwang 
     conference_short: ICML
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
