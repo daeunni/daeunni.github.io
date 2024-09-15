@@ -8,13 +8,23 @@ main:
     code: https://github.com/daeunni/BECoTTA
     image: ./assets/img/becotta_v2.png
 
-  - title: "Dynamic Domains, Dynamic Solutions: DPCore for Continual Test-Time Adaptation"
-    authors: <strong>Yunbei Zhang</strong>, Akshay Mehra, Jihun Hamm
-    conference_short: Preprint
-    # conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2406.10737
-    code: https://github.com/zybeich/DPCore
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    image: ./assets/img/dpcore_fig.png
-    notes: Preprint, under review.
+  - title: "HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization"
+    authors: <strong>Daeun Lee</strong>, Minhyeok Heo, Jiwon Kim
+    conference_short: CVPRW
+    conference: CVPR Data-Driven Autonomous Driving Simulation Workshop <strong>(CVPRW)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2311.16589
+    image: ./assets/img/new_hdmap.png
+
+  - title: "Resolving Class Imbalance for LiDAR-based Object Detector by Dynamic Weight Average and Contextual Ground Truth Sampling"
+    authors: <strong>Daeun Lee</strong>, Jinkyu Kim
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2023.
+    pdf: https://openaccess.thecvf.com/content/WACV2023/papers/Lee_Resolving_Class_Imbalance_for_LiDAR-Based_Object_Detector_by_Dynamic_Weight_WACV_2023_paper.pdf
+    image: ./assets/img/wacv23.png
+  
+  - title: "Bridging the Domain Gap towards Generalization in Automatic Colorization"
+    authors: Hyejin Lee, Daehee Kim, <strong>Daeun Lee</strong>, Jinkyu Kim, Jaekoo Lee
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2022.
+    pdf: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770530.pdf
+    image: ./assets/img/eccv22.png
