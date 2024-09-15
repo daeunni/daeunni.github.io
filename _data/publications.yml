@@ -1,14 +1,14 @@
 main:
 
-  - title: "OT-VP: Optimal Transport-guided Visual Prompting for Test-Time Adaptation"
-    authors: <strong>Yunbei Zhang</strong>, Akshay Mehra, Jihun Hamm
-    conference_short: WACV'25
-    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2025.
-    conference2: "1st Workshop on Test-Time Adaptation: Model, Adapt Thyself! (MAT) at CVPR 2024"
-    pdf: https://arxiv.org/pdf/2407.09498
-    code: https://github.com/zybeich/OT-VP
-    image: ./assets/img/otvp_fig.png
-    notes: Early Accept
+  - title: BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation
+    authors: <strong>Daeun Lee*</strong>, Jaehong Yoon*, Sung Ju Hwang 
+    conference_short: ICML
+    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2402.08712
+    page: https://becotta-ctta.github.io/
+    code: https://github.com/daeunni/BECoTTA
+    bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/becotta_v2.png
 
   - title: "Dynamic Domains, Dynamic Solutions: DPCore for Continual Test-Time Adaptation"
     authors: <strong>Yunbei Zhang</strong>, Akshay Mehra, Jihun Hamm
