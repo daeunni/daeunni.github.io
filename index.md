@@ -11,6 +11,7 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 ## Research Interests
 
 - **Faithfulness:** OOD Generalization, Evaluation Metrics for Generation
+- **Self-Evolving/Correcting Models:** Model-Guided Verification
 - **User-Interactive MLLM:** Chat-based MLLM, Interleaved MLLM
 - **Video Generation/Understanding** 
 
