@@ -1,5 +1,13 @@
 main:
 
+  - title: "VideoRepair: Improving Text-to-Video Generation via Misalignment Evaluation and Localized Refinement"
+    authors: <strong>Daeun Lee*</strong>, Jaehong Yoon, Jaemin Cho, Mohit Bansal 
+    conference_short: 
+    conference: preprint
+    pdf: https://arxiv.org/pdf/2411.15115
+    code: https://github.com/daeunni/VideoRepair
+    image: ./assets/img/teaser_final_verylarge_v2.gif
+
   - title: "BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation"
     authors: <strong>Daeun Lee*</strong>, Jaehong Yoon*, Sung Ju Hwang 
     conference_short: ICML
@@ -7,7 +15,7 @@ main:
     pdf: https://arxiv.org/pdf/2402.08712
     code: https://github.com/daeunni/BECoTTA
     image: ./assets/img/becotta_v2.png
-
+    
   - title: "HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization"
     authors: <strong>Daeun Lee</strong>, Minhyeok Heo, Jiwon Kim
     conference_short: CVPRW
