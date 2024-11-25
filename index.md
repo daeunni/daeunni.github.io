@@ -17,10 +17,11 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## News
 
+- **[Nov. 2024]** New preprint is out: check out [VideoRepair](https://video-repair.github.io/)! 🎬
 - **[Aug. 2024]** I started PhD journey at the UNC Chapel Hill [MURGe-Lab](https://murgelab.cs.unc.edu/)! 🎓
-- **[May. 2024]** One 1st author paper got accepted to **ICML2024** 🇦🇹
-- **[Apr. 2024]** One 1st author paper got accepted to **CVPRW2024** 🇺🇸
-- **[Jan. 2023]** One 1st author paper is oral-presented at **WACV2023** 🏝️
+- **[May. 2024]** One paper got accepted to **ICML2024** 🇦🇹
+- **[Apr. 2024]** One paper got accepted to **CVPRW2024** 🇺🇸
+- **[Jan. 2023]** One paper is oral-presented at **WACV2023** 🏝️
 - **[Dec. 2022]** I finished my first research internship at [NAVER LABS](https://www.naverlabs.com/)! 🚙
   
 {% include_relative _includes/publications.md %}
