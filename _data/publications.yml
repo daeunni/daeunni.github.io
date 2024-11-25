@@ -1,7 +1,7 @@
 main:
 
   - title: "VideoRepair: Improving Text-to-Video Generation via Misalignment Evaluation and Localized Refinement"
-    authors: <strong>Daeun Lee*</strong>, Jaehong Yoon, Jaemin Cho, Mohit Bansal 
+    authors: <strong>Daeun Lee</strong>, Jaehong Yoon, Jaemin Cho, Mohit Bansal 
     conference_short: 
     conference: preprint
     pdf: https://arxiv.org/pdf/2411.15115
