@@ -11,9 +11,9 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 ## Research Interests
 
 - **Faithfulness:** OOD Generalization, Evaluation Metrics for Generation
+- **Embodied AI:** Perception in Robot Learning, Self-Driving  
 - **Self-Evolving/Correcting Models:** Model-Guided Verification
-- **User-Interactive MLLM:** Chat-based MLLM, Interleaved MLLM
-- **Video Generation/Understanding** 
+- **Video Generation/Understanding**
 
 ## News
 
