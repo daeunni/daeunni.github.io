@@ -10,13 +10,14 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## Research Interests
 
-- **Faithfulness:** OOD Generalization, Evaluation Metrics for Generation
+- **Reliability of Multimodal LLMs** : OOD Generalization, Evaluation Metrics for Faithfulness
+- **Video Generation/Understanding**
 - **Embodied AI:** Perception in Robot Learning, Self-Driving  
 - **Self-Evolving/Correcting Models:** Model-Guided Verification
-- **Video Generation/Understanding**
 
 ## News
 
+- **[Jan. 2025]** I had an invited talk at Cisco Meraki about Reliability of Text-to-Video Generation
 - **[Nov. 2024]** New preprint is out: check out [VideoRepair](https://video-repair.github.io/)! 🎬
 - **[Aug. 2024]** I started PhD journey at the UNC Chapel Hill [MURGe-Lab](https://murgelab.cs.unc.edu/)! 🎓
 - **[May. 2024]** One paper got accepted to **ICML2024** 🇦🇹
