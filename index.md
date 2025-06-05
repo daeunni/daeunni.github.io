@@ -16,7 +16,8 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## News
 
-- **[May. 2025]** Join **Adobe Research** as 2025 Summer Intern 🎨
+- **[Jun. 2025]** New preprint is out: check out [Video-Skill-CoT](https://video-skill-cot.github.io/)! 🛠️
+- **[May. 2025]** Join <span style="color:Salmon;"><b>Adobe Research</b></span> as 2025 Summer Intern 🎨
 - **[Jan. 2025]** I had an invited talk at **Cisco Meraki** about "Reliability of Text-to-Video Generation".
 - **[Nov. 2024]** New preprint is out: check out [VideoRepair](https://video-repair.github.io/)! 🎬
 - **[Aug. 2024]** I started PhD journey at the UNC Chapel Hill [MURGe-Lab](https://murgelab.cs.unc.edu/)! 🎓
