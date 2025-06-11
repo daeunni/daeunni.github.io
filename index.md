@@ -9,11 +9,10 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## Research Interests
 
-- **Reliability of Multimodal LLMs** : OOD Generalization, Evaluation Metrics for Faithfulness
-- **Self-Evolving/Correcting Models:** Model-Guided Verification
-- **Video Generation/Understanding:** Video Reasoning 
-- **Embodied AI:** Perception in Robot Learning, Self-Driving
-
+- **Out-of-Domain Generalization / Adaptation** 
+- **Video Generation/Understanding** 
+- **Embodied AI** (Perception in Robot Learning, Self-Driving)
+  
 ## News
 
 - **[Jun. 2025]** New preprint is out: check out [Video-Skill-CoT](https://video-skill-cot.github.io/)! 🛠️
