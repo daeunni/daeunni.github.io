@@ -1,11 +1,4 @@
 main:
-  - title: "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning"
-    authors: <strong>Daeun Lee*</strong>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal 
-    conference_short: 
-    conference: preprint
-    pdf: https://arxiv.org/pdf/2506.03525
-    code: https://github.com/daeunni/Video-Skill-CoT
-    image: ./assets/img/video-skill-cot.gif
 
   - title: "VideoRepair: Improving Text-to-Video Generation via Misalignment Evaluation and Localized Refinement"
     authors: <strong>Daeun Lee</strong>, Jaehong Yoon, Jaemin Cho, Mohit Bansal 
@@ -14,6 +7,14 @@ main:
     pdf: https://arxiv.org/pdf/2411.15115
     code: https://github.com/daeunni/VideoRepair
     image: ./assets/img/teaser_final_verylarge_v2.gif
+
+  - title: "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning"
+    authors: <strong>Daeun Lee*</strong>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal 
+    conference_short: EMNLP Findings
+    conference: Empirical Methods in Natural Language Processing <strong>(EMNLP) Findings</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2506.03525
+    code: https://github.com/daeunni/Video-Skill-CoT
+    image: ./assets/img/video-skill-cot.gif
 
   - title: "BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation"
     authors: <strong>Daeun Lee*</strong>, Jaehong Yoon*, Sung Ju Hwang 
