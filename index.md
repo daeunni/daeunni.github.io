@@ -15,7 +15,7 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## News
 
-- **[Jul. 2025]** One paper got accepted to **EMNLP 2025 Findings** 🇨🇳 
+- **[Aug. 2025]** One paper got accepted to **EMNLP 2025 Findings** 🇨🇳 
 - **[Jun. 2025]** New preprint is out: check out [Video-Skill-CoT](https://video-skill-cot.github.io/)! 🛠️
 - **[May. 2025]** Join <span style="color:Crimson;"><b>Adobe Research</b></span> as 2025 Summer Intern 🎨
 - **[Jan. 2025]** Invited talk at <span style="color:Green;"><b>Cisco Meraki</b></span>
