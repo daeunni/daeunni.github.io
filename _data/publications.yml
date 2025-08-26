@@ -1,7 +1,7 @@
 main:
 
   - title: "VideoRepair: Improving Text-to-Video Generation via Misalignment Evaluation and Localized Refinement"
-    authors: <b><u>Daeun Lee</u></b>, Jaehong Yoon, Jaemin Cho, Mohit Bansal
+    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal
     conference_short:
     conference: preprint
     pdf: https://arxiv.org/pdf/2411.15115
@@ -9,7 +9,7 @@ main:
     image: ./assets/img/teaser_final_verylarge_v2.gif
 
   - title: "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning"
-    authors: <b><u>Daeun Lee*</u></b>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal 
+    authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal
     conference_short: EMNLP Findings
     conference: Empirical Methods in Natural Language Processing <b>(EMNLP) Findings</b>, 2025.
     pdf: https://arxiv.org/pdf/2506.03525
@@ -17,7 +17,7 @@ main:
     image: ./assets/img/video-skill-cot.gif
 
   - title: "BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation"
-    authors: <b><u>Daeun Lee*</u></b>, Jaehong Yoon*, Sung Ju Hwang
+    authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang
     conference_short: ICML
     conference: International Conference on Machine Learning <b>(ICML)</b>, 2024.
     pdf: https://arxiv.org/pdf/2402.08712
@@ -25,21 +25,21 @@ main:
     image: ./assets/img/becotta_v2.png
     
   - title: "HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization"
-    authors: <b><u>Daeun Lee</u></b>, Minhyeok Heo, Jiwon Kim
+    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Minhyeok Heo, Jiwon Kim
     conference_short: CVPRW
     conference: CVPR Data-Driven Autonomous Driving Simulation Workshop <b>(CVPRW)</b>, 2024.
     pdf: https://arxiv.org/pdf/2311.16589
     image: ./assets/img/new_hdmap.png
 
   - title: "Resolving Class Imbalance for LiDAR-based Object Detector by Dynamic Weight Average and Contextual Ground Truth Sampling"
-    authors: <b><u>Daeun Lee</u></b>, Jinkyu Kim
+    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jinkyu Kim
     conference_short: WACV
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <b>(WACV)</b>, 2023.
     pdf: https://openaccess.thecvf.com/content/WACV2023/papers/Lee_Resolving_Class_Imbalance_for_LiDAR-Based_Object_Detector_by_Dynamic_Weight_WACV_2023_paper.pdf
     image: ./assets/img/wacv23.png
   
   - title: "Bridging the Domain Gap towards Generalization in Automatic Colorization"
-    authors: Hyejin Lee, Daehee Kim, <b><u>Daeun Lee</u></b>, Jinkyu Kim, Jaekoo Lee
+    authors: Hyejin Lee, Daehee Kim, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jinkyu Kim, Jaekoo Lee
     conference_short: ECCV
     conference: European Conference on Computer Vision <b>(ECCV)</b>, 2022.
     pdf: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770530.pdf
