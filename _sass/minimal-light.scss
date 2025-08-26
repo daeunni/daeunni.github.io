@@ -8,7 +8,7 @@
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#f899b7!important;
+  color:#9d9393!important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
@@ -160,6 +160,7 @@ papertitle {
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400; 
+  font-size: 15px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -218,7 +219,7 @@ h1 {
   font-weight: 700;
   color:#c15b79;
   margin:0 0 20px;
-  font-size:28px; /* 기존 크기 유지 */
+  font-size:25px; /* 기존 크기 유지 */
 }
 
 h2 {
@@ -226,14 +227,14 @@ h2 {
   font-weight: 600;
   color:#e36b8f;
   margin:2px 0px 15px;
-  font-size: 157%;
+  font-size: 140%;
 }
 
 h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   color:#e36b8f;
-  margin:0 0 20px;
+  margin:0 0 18px;
 }
 
 @media (prefers-color-scheme: dark) {
