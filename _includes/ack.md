@@ -1,7 +1,8 @@
 ---
 ## Acknowledgement
 
-💐 I have always believed that my achievements and learning are based on collaboration and my great advisers. I really appreciate [Mohit Bansal](https://www.cs.unc.edu/~mbansal/), [Jaehong Yoon](https://jaehong31.github.io/), [Jinkyu Kim](https://visionai.korea.ac.kr/), [Minhyeok Heo](https://www.linkedin.com/in/minhyeok-heo-b66a96179/), [Sung Ju Hwang](http://www.sungjuhwang.com/), [Sungbin Lim](https://www.sungbin-lim.net/). 
+💐 Always appreciate all of my great advisors and collaborators: [**Mohit Bansal (UNC)**](https://www.cs.unc.edu/~mbansal/), [**Jaehong Yoon (NTU)**](https://jaehong31.github.io/), [**Jinkyu Kim (KU)**](https://visionai.korea.ac.kr/), [**Jaemin Cho (JHU)**](https://j-min.io/), [**Minhyeok Heo (NaverLabs)**](https://www.linkedin.com/in/minhyeok-heo-b66a96179/), [**Sung Ju Hwang (KAIST)**](http://www.sungjuhwang.com/), [**Sungbin Lim (KU)**](https://www.sungbin-lim.net/)
+
 
 ---
 
