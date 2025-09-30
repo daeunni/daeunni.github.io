@@ -5,20 +5,19 @@ layout: homepage
 
 Thanks for visiting my website! ✨
 I am a 2nd-year Ph.D. student at UNC Chapel Hill, [MURGe-Lab](https://murgelab.cs.unc.edu/) (Advisor: Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)).
-Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University and Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST.
+Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) at Korea University, Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/) at KAIST. 
 
 ---
 
 ## Research Interests
 
-- <b>Embodied AI, Agents</b>
-- <b>Out-of-Domain Generalization, Adaptation</b>
+- <b>Test-time Adaptation/Scaling</b>
+- <b>Embodied Agents</b>
 - <b>Video Understanding</b>
 
 ---
 
 ## News
-
 - **[Aug. 2025]** One paper got accepted to <b>EMNLP 2025 Findings</b> 🇨🇳 
 - **[Jun. 2025]** New preprint is out: check out <b>[Video-Skill-CoT](https://video-skill-cot.github.io/)</b> 
 - **[May. 2025]** Join <b>Adobe Research</b> as 2025 Summer Intern! 
