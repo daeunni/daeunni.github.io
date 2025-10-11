@@ -11,9 +11,8 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## Research Interests
 
-- <b>Test-time Adaptation/Scaling</b>
-- <b>Embodied Agents</b>
-- <b>Video Understanding</b>
+- <b>Post-training for Multimodal Understanding</b>: self-correcting and test-time adaptation/scaling.
+- <b>Embodied Agents</b>: adaptive interaction and action modeling in robotics.
 
 ---
 
