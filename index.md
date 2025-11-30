@@ -11,8 +11,8 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## Research Interests
 
-- <b>Post-training for Multimodal Understanding</b>: self-correcting and test-time adaptation/scaling, with a particular focus on <b>video</b>.
-- <b>Embodied Agents</b>: adaptive interaction and action modeling in robotics with interesting modality (e.g., 3D LiRAR, Gaze, HD Maps).
+- <span class="highlight"><b><u>Post-training for Multimodal Understanding</u></b></span>: self-correcting and test-time adaptation/scaling, with a particular focus on <b>video</b>.
+- <span class="highlight"><b><u>Embodied Agents</u></b></span>: adaptive interaction and action modeling in robotics with interesting modality (e.g., 3D LiRAR, Gaze, HD Maps).
 
 ---
 
