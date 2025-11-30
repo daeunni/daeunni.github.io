@@ -1,4 +1,11 @@
 main:
+  - title: "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos"
+    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
+    conference_short:
+    conference: preprint
+    pdf: https://arxiv.org/pdf/xxx
+    code: https://github.com/daeunni/StreamGaze
+    image: ./assets/img/streamgaze_demo.gif
 
   - title: "VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal

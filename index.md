@@ -12,17 +12,18 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 ## Research Interests
 
 - <b>Post-training for Multimodal Understanding</b>: self-correcting and test-time adaptation/scaling.
-- <b>Embodied Agents</b>: adaptive interaction and action modeling in robotics.
+- <b>Embodied Agents</b>: adaptive interaction and action modeling in robotics with interesting sensor data (e.g., 3D LiRAR, Gaze, HD Maps).
 
 ---
 
 ## News
+- **[Dec. 2025]** New preprint is out: check out <b>[StreamGaze](https://streamgaze.github.io/)</b> 💗
 - **[Aug. 2025]** One paper got accepted to <b>EMNLP 2025 Findings</b> 🇨🇳 
 - **[Jun. 2025]** New preprint is out: check out <b>[Video-Skill-CoT](https://video-skill-cot.github.io/)</b> 
 - **[May. 2025]** Join <b>Adobe Research</b> as 2025 Summer Intern! 
 - **[Jan. 2025]** Invited talk at <b>Cisco Meraki</b>
 - **[Nov. 2024]** New preprint is out: check out <b>[VideoRepair](https://video-repair.github.io/)</b> 
-<!-- - **[Aug. 2024]** Started PhD journey at the UNC Chapel Hill <b>MURGe-Lab</b> 🎓 -->
+- **[Aug. 2024]** Started PhD journey at the UNC Chapel Hill <b>MURGe-Lab</b> 🎓
 - **[May. 2024]** One paper got accepted to <b>ICML 2024</b> 🇦🇹
 - **[Apr. 2024]** One paper got accepted to <b>CVPRW 2024</b> 🇺🇸
 - **[Jan. 2023]** One paper is oral-presented at <b>WACV 2023</b> 🏝️
