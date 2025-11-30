@@ -7,6 +7,14 @@ main:
     code: https://github.com/daeunni/StreamGaze
     image: ./assets/img/streamgaze_demo.gif
 
+  - title: "IndustryNav: Exploring Spatial Reasoning of Embodied Agents in Dynamic Industrial Navigation"
+    authors: Yifan Li, Lichi Li, Anh Dao, Xinyu Zhou, Yicheng Qiao, Zheda Mai, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Zichen Chen, Zhen Tan, Mohit Bansal, Yu Kong
+    conference_short:
+    conference: preprint
+    pdf: https://arxiv.org/abs/2511.17384
+    code: https://github.com/JackYFL/IndustryEQA
+    image: ./assets/img/industry.png
+    
   - title: "VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal
     conference_short:

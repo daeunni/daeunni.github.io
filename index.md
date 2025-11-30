@@ -11,13 +11,13 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## Research Interests
 
-- <b>Post-training for Multimodal Understanding</b>: self-correcting and test-time adaptation/scaling.
-- <b>Embodied Agents</b>: adaptive interaction and action modeling in robotics with interesting sensor data (e.g., 3D LiRAR, Gaze, HD Maps).
+- <b>Post-training for Multimodal Understanding</b>: self-correcting and test-time adaptation/scaling, with a particular focus on <b>video</b>.
+- <b>Embodied Agents</b>: adaptive interaction and action modeling in robotics with interesting modality (e.g., 3D LiRAR, Gaze, HD Maps).
 
 ---
 
 ## News
-- **[Dec. 2025]** New preprint is out: check out <b>[StreamGaze](https://streamgaze.github.io/)</b> 💗
+- **[Dec. 2025]** New preprint is out: check out <b>[StreamGaze](https://streamgaze.github.io/)</b> and <b>[IndustryNav](https://arxiv.org/pdf/2511.17384)</b>
 - **[Aug. 2025]** One paper got accepted to <b>EMNLP 2025 Findings</b> 🇨🇳 
 - **[Jun. 2025]** New preprint is out: check out <b>[Video-Skill-CoT](https://video-skill-cot.github.io/)</b> 
 - **[May. 2025]** Join <b>Adobe Research</b> as 2025 Summer Intern! 
