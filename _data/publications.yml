@@ -3,7 +3,7 @@ main:
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
     conference_short:
     conference: preprint
-    pdf: https://arxiv.org/pdf/xxx
+    pdf: https://arxiv.org/pdf/2512.01707
     code: https://github.com/daeunni/StreamGaze
     image: ./assets/img/streamgaze_demo.gif
 
