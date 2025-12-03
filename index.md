@@ -11,7 +11,7 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 ## Research Interests
 
-- <span class="highlight"><b><u>Multimodal Understanding</u></b></span>: self-correcting and post-training methods, with a particular focus on <b>video</b>.
+- <span class="highlight"><b><u>Multimodal Understanding</u></b></span>: self-correcting and post-training methods, focusing on <b>video</b>.
 - <span class="highlight"><b><u>Embodied Agents</u></b></span>: adaptive action modeling in robotics with <b>perceptual modality</b> (e.g., 3D LiRAR, Gaze, HD Maps).
 
 ---
