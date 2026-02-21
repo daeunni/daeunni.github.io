@@ -1,11 +1,4 @@
 main:
-  - title: "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos"
-    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
-    conference_short:
-    conference: preprint
-    pdf: https://arxiv.org/pdf/2512.01707
-    code: https://github.com/daeunni/StreamGaze
-    image: ./assets/img/streamgaze_demo.gif
 
   - title: "IndustryNav: Exploring Spatial Reasoning of Embodied Agents in Dynamic Industrial Navigation"
     authors: Yifan Li, Lichi Li, Anh Dao, Xinyu Zhou, Yicheng Qiao, Zheda Mai, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Zichen Chen, Zhen Tan, Mohit Bansal, Yu Kong
@@ -22,6 +15,14 @@ main:
     pdf: https://arxiv.org/pdf/2411.15115
     code: https://github.com/daeunni/VideoRepair
     image: ./assets/img/teaser_final_verylarge_v2.gif
+
+  - title: "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos"
+    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
+    conference_short:
+    conference: The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.
+    pdf: https://arxiv.org/pdf/2512.01707
+    code: https://github.com/daeunni/StreamGaze
+    image: ./assets/img/streamgaze_demo.gif
 
   - title: "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning"
     authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal

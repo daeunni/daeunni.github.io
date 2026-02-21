@@ -485,3 +485,9 @@ footer {
   padding: 0 4px;
   border-radius: 2px;
 }
+
+/* 굵게 + 글자색만 (배경 없음) - Research Interests .highlight와 같은 핑크 톤 */
+.text-accent {
+  color: #e36b8f;  /* .highlight 배경 #fee9f6 와 같은 hue, 진한 버전 */
+  font-weight: bold;
+}

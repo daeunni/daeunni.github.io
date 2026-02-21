@@ -18,17 +18,18 @@ I enjoy input-adaptive modeling on real-life scenarios.
 ---
 
 ## News
-- **[Dec. 2025]** New preprint is out: check out <b>[StreamGaze](https://streamgaze.github.io/)</b> and <b>[IndustryNav](https://arxiv.org/pdf/2511.17384)</b>
-- **[Aug. 2025]** One paper got accepted to <b>EMNLP 2025 Findings</b> 🇨🇳 
-- **[Jun. 2025]** New preprint is out: check out <b>[Video-Skill-CoT](https://video-skill-cot.github.io/)</b> 
-- **[May. 2025]** Join <b>Adobe Research</b> as 2025 Summer Intern! 
-- **[Jan. 2025]** Invited talk at <b>Cisco Meraki</b>
-- **[Nov. 2024]** New preprint is out: check out <b>[VideoRepair](https://video-repair.github.io/)</b> 
-- **[Aug. 2024]** Started PhD journey at the UNC Chapel Hill <b>MURGe-Lab</b> 🎓
-- **[May. 2024]** One paper got accepted to <b>ICML 2024</b> 🇦🇹
-- **[Apr. 2024]** One paper got accepted to <b>CVPRW 2024</b> 🇺🇸
-- **[Jan. 2023]** One paper is oral-presented at <b>WACV 2023</b> 🏝️
-- **[Dec. 2022]** I finished my first research internship at <b>NAVER LABS</b>! 
+- **[Feb. 2026]** StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅 
+- **[Dec. 2025]** New preprint is out: check out <span class="text-accent">[StreamGaze](https://streamgaze.github.io/)</span> and <span class="text-accent">[IndustryNav](https://arxiv.org/pdf/2511.17384)</span>
+- **[Aug. 2025]** Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳 
+- **[Jun. 2025]** New preprint is out: check out <span class="text-accent">[Video-Skill-CoT](https://video-skill-cot.github.io/)</span> 
+- **[May. 2025]** Join <span class="text-accent">Adobe Research</span> as 2025 Summer Intern! 
+- **[Jan. 2025]** Invited talk at <span class="text-accent">Cisco Meraki</span> 
+- **[Nov. 2024]** New preprint is out: check out <span class="text-accent">[VideoRepair](https://video-repair.github.io/)</span> 
+- **[Aug. 2024]** Started PhD journey at the UNC Chapel Hill <span class="text-accent">MURGe-Lab</span> 🎓
+- **[May. 2024]** BECoTTA is accepted to <span class="text-accent">ICML 2024</span> 🇦🇹
+- **[Apr. 2024]** One paper is accepted to <span class="text-accent">CVPRW 2024</span> 🇺🇸
+- **[Jan. 2023]** One paper is oral-presented at <span class="text-accent">WACV 2023</span> 🏝️
+- **[Dec. 2022]** I finished my first research internship at <span class="text-accent">NAVER LABS</span>! 
 
 ---
 
