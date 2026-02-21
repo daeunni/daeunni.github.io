@@ -18,7 +18,7 @@ main:
 
   - title: "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
-    conference_short:
+    conference_short: CVPR 
     conference: The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.
     pdf: https://arxiv.org/pdf/2512.01707
     code: https://github.com/daeunni/StreamGaze

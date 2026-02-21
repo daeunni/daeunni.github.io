@@ -491,3 +491,9 @@ footer {
   color: #e36b8f;  /* .highlight 배경 #fee9f6 와 같은 hue, 진한 버전 */
   font-weight: bold;
 }
+
+/* 굵게 + 다른 색 (회사/조직명: Adobe, Cisco, MURGe-Lab 등) */
+.text-accent-org {
+  color: #1e3a5f;
+  font-weight: bold;
+}

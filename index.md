@@ -19,13 +19,16 @@ I enjoy input-adaptive modeling on real-life scenarios.
 
 ## News
 - **[Feb. 2026]** StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅 
-- **[Dec. 2025]** New preprint is out: check out <span class="text-accent">[StreamGaze](https://streamgaze.github.io/)</span> and <span class="text-accent">[IndustryNav](https://arxiv.org/pdf/2511.17384)</span>
+- **[Dec. 2025]** New preprint is out: check out <span class="highlight">[StreamGaze](https://streamgaze.
+github.io/)</span> and <span class="highlight">[IndustryNav](https://arxiv.org/pdf/2511.17384)</span>
 - **[Aug. 2025]** Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳 
-- **[Jun. 2025]** New preprint is out: check out <span class="text-accent">[Video-Skill-CoT](https://video-skill-cot.github.io/)</span> 
-- **[May. 2025]** Join <span class="text-accent">Adobe Research</span> as 2025 Summer Intern! 
-- **[Jan. 2025]** Invited talk at <span class="text-accent">Cisco Meraki</span> 
-- **[Nov. 2024]** New preprint is out: check out <span class="text-accent">[VideoRepair](https://video-repair.github.io/)</span> 
-- **[Aug. 2024]** Started PhD journey at the UNC Chapel Hill <span class="text-accent">MURGe-Lab</span> 🎓
+- **[Jun. 2025]** New preprint is out: check out <span class="highlight">[Video-Skill-CoT](https://
+video-skill-cot.github.io/)</span> 
+- **[May. 2025]** Join <span class="text-accent-org">Adobe Research</span> as 2025 Summer Intern! 
+- **[Jan. 2025]** Invited talk at <span class="text-accent-org">Cisco Meraki</span> 
+- **[Nov. 2024]** New preprint is out: check out <span class="highlight">[VideoRepair](https://video-repair.
+github.io/)</span> 
+- **[Aug. 2024]** Started PhD journey at the UNC Chapel Hill <span class="text-accent-org">MURGe-Lab</span> 🎓
 - **[May. 2024]** BECoTTA is accepted to <span class="text-accent">ICML 2024</span> 🇦🇹
 - **[Apr. 2024]** One paper is accepted to <span class="text-accent">CVPRW 2024</span> 🇺🇸
 - **[Jan. 2023]** One paper is oral-presented at <span class="text-accent">WACV 2023</span> 🏝️
