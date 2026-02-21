@@ -520,6 +520,11 @@ footer {
 .text-accent {
   color: #e36b8f;
   font-weight: bold;
+
+  a {
+    color: inherit;
+    font-weight: inherit;
+  }
 }
 
 .text-accent-org {
