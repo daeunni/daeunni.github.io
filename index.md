@@ -18,11 +18,12 @@ I enjoy input-adaptive modeling on real-life scenarios.
 ---
 
 ## News
+- **[Feb. 2025]** Will join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Intern! 
 - **[Feb. 2026]** StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅 
 - **[Dec. 2025]** New preprint is out: check out <b>[StreamGaze](https://streamgaze.github.io/)</b> and <b>[IndustryNav](https://arxiv.org/pdf/2511.17384)</b>
 - **[Aug. 2025]** Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳 
 - **[Jun. 2025]** New preprint is out: check out <b>[Video-Skill-CoT](https://video-skill-cot.github.io/)</b> 
-- **[May. 2025]** Join <span class="text-accent-org">Adobe Research</span> as 2025 Summer Intern! 
+- **[May. 2025]** Join <span class="text-accent-org">Adobe Research</span> for 2025 Summer Intern! 
 - **[Jan. 2025]** Invited talk at <span class="text-accent-org">Cisco Meraki</span> 
 - **[Nov. 2024]** New preprint is out: check out <b>[VideoRepair](https://video-repair.github.io/)</b> 
 - **[Aug. 2024]** Started PhD journey at the UNC Chapel Hill <span class="text-accent-org">MURGe-Lab</span> 🎓
