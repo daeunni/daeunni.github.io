@@ -18,7 +18,7 @@ I enjoy input-adaptive modeling on real-life scenarios.
 ---
 
 ## News
-- **[Feb. 2025]** Will join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Intern! 
+- **[Feb. 2026]** Will join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Intern! 
 - **[Feb. 2026]** StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅 
 - **[Dec. 2025]** New preprint is out: check out <b>[StreamGaze](https://streamgaze.github.io/)</b> and <b>[IndustryNav](https://arxiv.org/pdf/2511.17384)</b>
 - **[Aug. 2025]** Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳 
