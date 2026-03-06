@@ -13,7 +13,7 @@ Previously, I was advised by Prof. [Jinkyu Kim](https://visionai.korea.ac.kr/) a
 
 I enjoy input-adaptive modeling on real-life scenarios. 
 - <span class="highlight"><b><u>Multimodal (Video) Generation / Understanding</u></b></span>: self-correcting and adaptive architecture with RL/post-training
-- <span class="highlight"><b><u>Physical AI</u></b></span>: adaptive action modeling in embodied scenario with <b>perceptual modality</b> (e.g., 3D LiRAR, Gaze, HD Maps).
+- <span class="highlight"><b><u>Physical AI</u></b></span>: adaptive action modeling in embodied scenario with <b>perceptual modality</b> (e.g., 3D LiDAR, Gaze, HD Maps).
 
 ---
 
