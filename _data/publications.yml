@@ -1,4 +1,11 @@
 main:
+  - title: "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting"
+    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Shoubin Yu, Yue Zhang, Mohit Bansal
+    conference_short:
+    conference: preprint
+    pdf: https://arxiv.org/pdf/2603.14659
+    code: https://visioncoach.github.io/
+    image: ./assets/img/visioncoach.gif
 
   - title: "IndustryNav: Exploring Spatial Reasoning of Embodied Agents in Dynamic Industrial Navigation"
     authors: Yifan Li, Lichi Li, Anh Dao, Xinyu Zhou, Yicheng Qiao, Zheda Mai, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Zichen Chen, Zhen Tan, Mohit Bansal, Yu Kong
