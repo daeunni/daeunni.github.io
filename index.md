@@ -18,6 +18,7 @@ I enjoy input-adaptive modeling on real-life scenarios.
 ---
 
 ## News
+- **[Apr. 2026]** VideoRepair is accepted to <span class="text-accent">ACL 2026 Findings</span> 🌊 
 - **[Mar. 2026]** New preprint is out: check out <b>[VisionCoach](https://visioncoach.github.io/)</b> 
 - **[Feb. 2026]** Will join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Intern! 
 - **[Feb. 2026]** StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅 
