@@ -17,8 +17,8 @@ main:
     
   - title: "VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal
-    conference_short:
-    conference: preprint
+    conference_short: ACL Findings
+    conference: The 64th Annual Meeting of the Association for Computational Linguistics <b>(ACL) Findings</b>, 2026. 
     pdf: https://arxiv.org/pdf/2411.15115
     code: https://github.com/daeunni/VideoRepair
     image: ./assets/img/teaser_final_verylarge_v2.gif
