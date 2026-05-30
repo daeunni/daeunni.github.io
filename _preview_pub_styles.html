@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publication Style Comparison</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Raleway', sans-serif; font-size: 14px; max-width: 780px; margin: 30px auto; padding: 0 20px; }
+    h2 { font-family: 'Raleway', sans-serif; font-weight: 600; color: #e36b8f; }
+    .variation-label { font-size: 11px; color: #b0b0b0; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; }
+    .pub-card { border: 1px solid #eee; border-radius: 12px; padding: 20px 24px; margin-bottom: 28px; }
+    .pub-card:hover { background: linear-gradient(135deg, #fef5fa, #f0f9f2); }
+    .highlight { background-color: #fee9f6; padding: 0 4px; border-radius: 2px; }
+    .title a { font-weight: bolder; color: #4a7dc0; text-decoration: none; }
+    .links a { font-size: 12px; border: 1px solid #000; padding: 1px 8px; border-radius: 4px; text-decoration: none; color: #000; margin-right: 4px; }
+    hr { border:0; height:2px; background: linear-gradient(to right, #e8a0b8, #8ccba0, transparent); margin: 8px 0 20px; }
+
+    /* ── Variation A: 저자 작게 + 회색 / 컨퍼런스 유지 ── */
+    .var-a .author { font-size: 12.5px; color: #888; margin: 3px 0; }
+    .var-a .periodical { font-size: 14px; }
+
+    /* ── Variation B: 저자 유지 / 컨퍼런스에 왼쪽 핑크 바 ── */
+    .var-b .author { margin: 3px 0; }
+    .var-b .periodical { border-left: 3px solid #e36b8f; padding-left: 8px; margin: 6px 0; font-size: 13px; }
+
+    /* ── Variation C: 저자 작게 + 회색 / 컨퍼런스에 연핑크 배경 태그 ── */
+    .var-c .author { font-size: 12.5px; color: #888; margin: 3px 0; }
+    .var-c .periodical { display: inline-block; background: #fee9f6; padding: 2px 10px; border-radius: 6px; font-size: 13px; margin: 5px 0; }
+
+    /* ── Variation D: 저자 작게 / 컨퍼런스 연두 배경 + 살짝 bold ── */
+    .var-d .author { font-size: 12.5px; color: #888; margin: 3px 0; }
+    .var-d .periodical { display: inline-block; background: linear-gradient(135deg, #fee9f6, #e8f5ec); padding: 3px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; margin: 5px 0; }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center; margin-bottom:30px;">Publication Style Comparison</h2>
+
+<!-- Variation A -->
+<div class="pub-card var-a">
+  <div class="variation-label">① 저자 작게 + 회색 톤 / 컨퍼런스 기본</div>
+  <div class="title"><a href="#">StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos</a></div>
+  <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal</div>
+  <div class="periodical"><em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.</em></div>
+  <hr>
+  <div class="title"><a href="#">BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation</a></div>
+  <div class="author"><span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang</div>
+  <div class="periodical"><em>International Conference on Machine Learning <b>(ICML)</b>, 2024.</em></div>
+</div>
+
+<!-- Variation B -->
+<div class="pub-card var-b">
+  <div class="variation-label">② 저자 기본 / 컨퍼런스에 왼쪽 핑크 바</div>
+  <div class="title"><a href="#">StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos</a></div>
+  <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal</div>
+  <div class="periodical"><em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.</em></div>
+  <hr>
+  <div class="title"><a href="#">BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation</a></div>
+  <div class="author"><span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang</div>
+  <div class="periodical"><em>International Conference on Machine Learning <b>(ICML)</b>, 2024.</em></div>
+</div>
+
+<!-- Variation C -->
+<div class="pub-card var-c">
+  <div class="variation-label">③ 저자 작게 + 회색 / 컨퍼런스 연핑크 태그</div>
+  <div class="title"><a href="#">StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos</a></div>
+  <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal</div>
+  <div class="periodical"><em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.</em></div>
+  <hr>
+  <div class="title"><a href="#">BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation</a></div>
+  <div class="author"><span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang</div>
+  <div class="periodical"><em>International Conference on Machine Learning <b>(ICML)</b>, 2024.</em></div>
+</div>
+
+<!-- Variation D -->
+<div class="pub-card var-d">
+  <div class="variation-label">④ 저자 작게 + 회색 / 컨퍼런스 핑크→연두 그라디언트 태그</div>
+  <div class="title"><a href="#">StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos</a></div>
+  <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal</div>
+  <div class="periodical"><em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.</em></div>
+  <hr>
+  <div class="title"><a href="#">BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation</a></div>
+  <div class="author"><span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang</div>
+  <div class="periodical"><em>International Conference on Machine Learning <b>(ICML)</b>, 2024.</em></div>
+</div>
+
+</body>
+</html>
