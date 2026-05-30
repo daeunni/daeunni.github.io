@@ -219,7 +219,7 @@ h1 {
   font-weight: 700;
   color:#c15b79;
   margin:0 0 20px;
-  font-size:25px; /* 기존 크기 유지 */
+  font-size:25px;
 }
 
 h2 {
@@ -501,4 +501,133 @@ footer {
 .text-accent-org {
   color: #1e3a5f;
   font-weight: bold;
+}
+
+/* ── 1) Publication 카드 hover 효과 ── */
+.pub-row {
+  transition: all 0.3s ease;
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin: -10px -14px;
+}
+.pub-row:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #fef5fa, #f0f9f2);
+  box-shadow: 0 4px 16px rgba(227, 107, 143, 0.13);
+}
+
+/* ── 3) News 타임라인 ── */
+.timeline {
+  position: relative;
+  padding-left: 44px;
+  margin-top: 12px;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 17px;
+  top: 4px;
+  bottom: 4px;
+  width: 2px;
+  background: linear-gradient(to bottom, #e8a0b8, #8ccba0);
+  border-radius: 2px;
+}
+.timeline-year {
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.timeline-year:first-child {
+  margin-top: 0;
+}
+.timeline-year::before {
+  content: '';
+  position: absolute;
+  left: -33px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #e36b8f;
+  border: 2.5px solid #fff;
+  box-shadow: 0 0 0 2px #e36b8f;
+}
+.year-label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #c15b79;
+  letter-spacing: 0.5px;
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 3px;
+  line-height: 1.45;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -31px;
+  top: 8px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #8ccba0;
+  border: 1.5px solid #fff;
+  box-shadow: 0 0 0 1px #8ccba0;
+}
+.timeline-month {
+  font-weight: 600;
+  color: #b0b0b0;
+  font-size: 12px;
+  display: inline-block;
+  width: 30px;
+  margin-right: 4px;
+}
+
+/* ── 4) Section 구분선 — 핑크→연두 그라디언트 ── */
+hr {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, #e8a0b8, #8ccba0, transparent);
+  margin: 28px 0;
+}
+
+/* ── 6) About Me 카드 배경 ── */
+.about-card {
+  background: linear-gradient(135deg, #fef5fa 0%, #f0f9f2 100%);
+  border-radius: 14px;
+  padding: 14px 22px;
+  border: 1px solid rgba(227, 107, 143, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-row:hover {
+    background: linear-gradient(135deg, rgba(227,107,143,0.08), rgba(140,203,160,0.08));
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  }
+  .timeline::before {
+    background: linear-gradient(to bottom, rgba(227,107,143,0.4), rgba(140,203,160,0.4));
+  }
+  .timeline-year::before {
+    border-color: #20212b;
+    box-shadow: 0 0 0 2px #e36b8f;
+  }
+  .year-label {
+    color: rgb(62, 183, 240);
+  }
+  .timeline-item::before {
+    border-color: #20212b;
+    box-shadow: 0 0 0 1px #8ccba0;
+  }
+  .timeline-month {
+    color: #777;
+  }
+  hr {
+    background: linear-gradient(to right, rgba(227,107,143,0.5), rgba(140,203,160,0.4), transparent);
+  }
+  .about-card {
+    background: linear-gradient(135deg, rgba(227,107,143,0.06), rgba(140,203,160,0.06));
+    border-color: rgba(227,107,143,0.12);
+  }
 }
