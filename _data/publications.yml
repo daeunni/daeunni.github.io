@@ -30,7 +30,7 @@ main:
     pdf: https://arxiv.org/pdf/2512.01707
     code: https://github.com/daeunni/StreamGaze
     image: ./assets/img/streamgaze_demo.gif
-    notes: <span style="font-size:11px;">Accepted with strong scores (5/5/5) but desk-rejected because of coauthor's irresponsible reviewing.</span>
+    notes: <span style="font-size:11px;">Accepted with strong scores (5/5/5) but desk-rejected after camera-ready because of coauthor's irresponsible reviewing.</span>
 
   - title: "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning"
     authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal
