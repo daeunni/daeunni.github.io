@@ -1,8 +1,8 @@
 main:
   - title: "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Shoubin Yu, Yue Zhang, Mohit Bansal
-    conference_short:
-    conference: preprint
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <b>(ECCV)</b>, 2026.
     pdf: https://arxiv.org/pdf/2603.14659
     code: https://visioncoach.github.io/
     image: ./assets/img/visioncoach.gif

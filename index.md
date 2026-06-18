@@ -15,7 +15,7 @@ I have also spent time as a Research Intern at <span class="text-accent-org">Ado
 
 ## Research Direction
 
-I began my AI research journey through autonomous driving, motivated by its potential to make a large-scale impact on society. Now I am interested in how we can make a better world for underrepresented people using <b>"multimodality"</b>. 
+I dedicate my life to AI because I want to *help* people through technology. Now, I am interested in how we can make a better world for underrepresented people using <b>"multimodality"</b>. My detailed interests are:
 
 - <span class="highlight"><b><u>Video (Multimodal) Reasoning / Generation / Understanding</u></b></span> with RL and post-training
 - <span class="highlight"><b><u>Embodied AI with Sensor Modalities</u></b></span> like Gaze, Audio, 3D LiDAR, HD Maps etc.
@@ -26,6 +26,7 @@ I began my AI research journey through autonomous driving, motivated by its pote
 
 <div class="timeline">
   <div class="timeline-year"><span class="year-label">2026</span></div>
+  <div class="timeline-item"><span class="timeline-month">Jun</span> VisionCoach is accepted to <span class="text-accent">ECCV 2026</span> 🇸🇪</div>
   <div class="timeline-item"><span class="timeline-month">May</span> Join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Research Intern!</div>
   <div class="timeline-item"><span class="timeline-month">Apr</span> VideoRepair is accepted to <span class="text-accent">ACL 2026 Findings</span> 🌊</div>
   <div class="timeline-item"><span class="timeline-month">Mar</span> New preprint is out: check out <b><a href="https://visioncoach.github.io/">VisionCoach</a></b></div>
