@@ -1,11 +1,11 @@
 main:
-  # - title: "IndustryNav: Exploring Spatial Reasoning of Embodied Agents in Dynamic Industrial Navigation"
-  #   authors: Yifan Li, Lichi Li, Anh Dao, Xinyu Zhou, Yicheng Qiao, Zheda Mai, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Zichen Chen, Zhen Tan, Mohit Bansal, Yu Kong
-  #   conference_short:
-  #   conference: preprint
-  #   pdf: https://arxiv.org/abs/2511.17384
-  #   code: https://github.com/JackYFL/IndustryEQA
-  #   image: ./assets/img/industry.png
+  - title: "IndustryNav: Exploring Spatial Reasoning of Embodied Agents in Dynamic Industrial Navigation"
+    authors: Yifan Li, Lichi Li, Anh Dao, Xinyu Zhou, Yicheng Qiao, Zheda Mai, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Zichen Chen, Zhen Tan, Mohit Bansal, Yu Kong
+    conference_short:
+    conference: preprint
+    pdf: https://arxiv.org/abs/2511.17384
+    code: https://github.com/JackYFL/IndustryEQA
+    image: ./assets/img/industry.png
 
   - title: "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Shoubin Yu, Yue Zhang, Mohit Bansal
