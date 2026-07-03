@@ -15,12 +15,14 @@ I have also spent time as a Research Intern at <span class="text-accent-org">Ado
 
 ## Research Direction
 
-I dedicate my life to AI because I want to *help* people through technology. Now, I am interested in how we can make a better world for underrepresented people using <b>"multimodality"</b>. 
+I believe technology should ultimately help people. Now, I am interested in how we can make a better world for underrepresented people through *Multimodal AI*. 
 
-My detailed interests are:
+My research interests include:
 
-- <span class="highlight"><b><u>Video (Multimodal) Reasoning / Generation / Understanding</u></b></span> with RL and post-training
-- <span class="highlight"><b><u>Embodied AI with Sensor Modalities</u></b></span> like Gaze, Audio, 3D LiDAR, HD Maps etc.
+- <span class="highlight"><b><u>Video (Multimodal) Reasoning, Generation, and Understanding</u></b></span>, with RL and post-training.
+- <span class="highlight"><b><u>Embodied AI with Diverse Sensor Modalities</u></b></span>, including gaze, audio, 3D LiDAR, HD maps, and other multimodal signals.
+
+💗 If you are working on fun ideas related to video, AR glasses, or egocentric perception and reasoning, I'd love to collaborate!
 
 ---
 
