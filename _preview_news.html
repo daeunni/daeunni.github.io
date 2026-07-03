@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>News Layout Preview</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+body { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; max-width: 750px; margin: 0 auto; padding: 40px 20px; }
+h1 { font-weight: 700; color: #c15b79; font-size: 22px; margin-bottom: 8px; }
+h2 { font-weight: 600; color: #e36b8f; font-size: 17px; margin: 40px 0 10px; }
+h3 { font-weight: 600; color: #888; font-size: 13px; margin: 0 0 16px; letter-spacing: 0.3px; }
+a { color: #4a7dc0; text-decoration: none; }
+.text-accent { color: #e36b8f; font-weight: bold; }
+.text-accent-org { color: #1e3a5f; font-weight: bold; }
+hr { border: 0; height: 2px; background: linear-gradient(to right, #e8a0b8, #8ccba0, transparent); margin: 40px 0; }
+
+/* shared timeline base */
+.tl { position: relative; padding-left: 44px; margin-top: 12px; }
+.tl::before { content: ''; position: absolute; left: 17px; top: 4px; bottom: 4px; width: 2px; background: linear-gradient(to bottom, #e8a0b8, #8ccba0); border-radius: 2px; }
+.tl-year { position: relative; margin-top: 12px; margin-bottom: 4px; }
+.tl-year:first-child { margin-top: 0; }
+.tl-year::before { content: ''; position: absolute; left: -33px; top: 50%; transform: translateY(-50%); width: 12px; height: 12px; border-radius: 50%; background: #e36b8f; border: 2.5px solid #fff; box-shadow: 0 0 0 2px #e36b8f; }
+.tl-year span { font-weight: 700; font-size: 14px; color: #c15b79; letter-spacing: 0.5px; }
+.tl-item { position: relative; margin-bottom: 3px; line-height: 1.45; }
+.tl-item::before { content: ''; position: absolute; left: -31px; top: 8px; width: 7px; height: 7px; border-radius: 50%; background: #8ccba0; border: 1.5px solid #fff; box-shadow: 0 0 0 1px #8ccba0; }
+.tl-month { font-weight: 600; color: #b0b0b0; font-size: 12px; display: inline-block; width: 30px; margin-right: 4px; }
+
+/* ===== A: Year Tabs ===== */
+.year-tabs { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+.year-tab { padding: 5px 14px; border-radius: 20px; border: 1px solid #e0e0e0; background: #fff; cursor: pointer; font-size: 13px; font-weight: 600; color: #888; transition: all 0.2s; }
+.year-tab:hover { border-color: #e8a0b8; color: #c15b79; }
+.year-tab.active { background: linear-gradient(135deg, #e36b8f, #c15b79); color: #fff; border-color: transparent; box-shadow: 0 2px 8px rgba(227, 107, 143, 0.3); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ===== B: Show More ===== */
+.news-hidden-b { display: none; }
+.news-hidden-b.open { display: block; }
+.show-more-btn { display: inline-block; margin-top: 10px; padding: 6px 18px; border-radius: 20px; border: 1px solid #e0e0e0; background: #fff; cursor: pointer; font-size: 12.5px; font-weight: 600; color: #888; transition: all 0.2s; }
+.show-more-btn:hover { border-color: #e8a0b8; color: #c15b79; }
+
+/* ===== C: Accordion ===== */
+.acc-header { cursor: pointer; position: relative; margin-top: 12px; margin-bottom: 4px; user-select: none; display: flex; align-items: center; gap: 6px; }
+.acc-header:first-child { margin-top: 0; }
+.acc-header::before { content: ''; position: absolute; left: -33px; top: 50%; transform: translateY(-50%); width: 12px; height: 12px; border-radius: 50%; background: #e36b8f; border: 2.5px solid #fff; box-shadow: 0 0 0 2px #e36b8f; }
+.acc-arrow { font-size: 10px; color: #c15b79; transition: transform 0.2s; display: inline-block; }
+.acc-header.open .acc-arrow { transform: rotate(90deg); }
+.acc-body { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+.acc-body.open { max-height: 500px; }
+
+/* ===== D: Scroll Box ===== */
+.scroll-box { max-height: 220px; overflow-y: auto; border: 1px solid #eee; border-radius: 10px; padding: 14px 10px 14px 0; }
+.scroll-box::-webkit-scrollbar { width: 5px; }
+.scroll-box::-webkit-scrollbar-track { background: #f8f8f8; border-radius: 4px; }
+.scroll-box::-webkit-scrollbar-thumb { background: linear-gradient(to bottom, #e8a0b8, #8ccba0); border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+
+    <h1>News Layout Preview</h1>
+    <p style="color:#888; font-size:13px;">4 options to make the News section more compact</p>
+
+    <!-- ===== A: Year Tabs ===== -->
+    <hr>
+    <h2>A: Year Tab Buttons</h2>
+    <h3>click a year to switch &mdash; clean and interactive</h3>
+
+    <div class="year-tabs" id="tabs-a">
+      <div class="year-tab active" onclick="switchTab('a','2026')">2026</div>
+      <div class="year-tab" onclick="switchTab('a','2025')">2025</div>
+      <div class="year-tab" onclick="switchTab('a','2024')">2024</div>
+      <div class="year-tab" onclick="switchTab('a','2023')">2023</div>
+      <div class="year-tab" onclick="switchTab('a','2022')">2022</div>
+    </div>
+
+    <div id="a-2026" class="tab-panel active">
+      <div class="tl">
+        <div class="tl-item"><span class="tl-month">Jul</span> VisionCoach is accepted to <span class="text-accent">ECCV 2026</span> 🇮🇹</div>
+        <div class="tl-item"><span class="tl-month">May</span> Join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Research Intern!</div>
+        <div class="tl-item"><span class="tl-month">Apr</span> VideoRepair is accepted to <span class="text-accent">ACL 2026 Findings</span> 🌊</div>
+        <div class="tl-item"><span class="tl-month">Mar</span> New preprint is out: check out <b><a href="#">VisionCoach</a></b></div>
+        <div class="tl-item"><span class="tl-month">Feb</span> StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅</div>
+      </div>
+    </div>
+    <div id="a-2025" class="tab-panel">
+      <div class="tl">
+        <div class="tl-item"><span class="tl-month">Dec</span> New preprint is out: check out <b><a href="#">StreamGaze</a></b> and <b><a href="#">IndustryNav</a></b></div>
+        <div class="tl-item"><span class="tl-month">Aug</span> Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳</div>
+        <div class="tl-item"><span class="tl-month">Jun</span> New preprint is out: check out <b><a href="#">Video-Skill-CoT</a></b></div>
+        <div class="tl-item"><span class="tl-month">May</span> Join <span class="text-accent-org">Adobe Research</span> for 2025 Summer Research Intern!</div>
+        <div class="tl-item"><span class="tl-month">Jan</span> Invited talk at <span class="text-accent-org">Cisco Meraki</span></div>
+      </div>
+    </div>
+    <div id="a-2024" class="tab-panel">
+      <div class="tl">
+        <div class="tl-item"><span class="tl-month">Nov</span> New preprint is out: check out <b><a href="#">VideoRepair</a></b></div>
+        <div class="tl-item"><span class="tl-month">Aug</span> Started PhD journey at the UNC Chapel Hill <span class="text-accent-org">MURGe-Lab</span> 🎓</div>
+        <div class="tl-item"><span class="tl-month">May</span> BECoTTA is accepted to <span class="text-accent">ICML 2024</span> 🇦🇹</div>
+        <div class="tl-item"><span class="tl-month">Apr</span> One paper is accepted to <span class="text-accent">CVPRW 2024</span> 🇺🇸</div>
+      </div>
+    </div>
+    <div id="a-2023" class="tab-panel">
+      <div class="tl">
+        <div class="tl-item"><span class="tl-month">Jan</span> One paper is oral-presented at <span class="text-accent">WACV 2023</span> 🏝️</div>
+      </div>
+    </div>
+    <div id="a-2022" class="tab-panel">
+      <div class="tl">
+        <div class="tl-item"><span class="tl-month">Dec</span> I finished my first research internship at <span class="text-accent-org">NAVER LABS</span>!</div>
+      </div>
+    </div>
+
+    <!-- ===== B: Show More ===== -->
+    <hr>
+    <h2>B: Latest + Show More</h2>
+    <h3>recent years visible, older years behind a button</h3>
+
+    <div class="tl">
+      <div class="tl-year"><span>2026</span></div>
+      <div class="tl-item"><span class="tl-month">Jul</span> VisionCoach is accepted to <span class="text-accent">ECCV 2026</span> 🇮🇹</div>
+      <div class="tl-item"><span class="tl-month">May</span> Join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Research Intern!</div>
+      <div class="tl-item"><span class="tl-month">Apr</span> VideoRepair is accepted to <span class="text-accent">ACL 2026 Findings</span> 🌊</div>
+      <div class="tl-item"><span class="tl-month">Mar</span> New preprint is out: check out <b><a href="#">VisionCoach</a></b></div>
+      <div class="tl-item"><span class="tl-month">Feb</span> StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅</div>
+
+      <div class="tl-year"><span>2025</span></div>
+      <div class="tl-item"><span class="tl-month">Dec</span> New preprint is out: check out <b><a href="#">StreamGaze</a></b> and <b><a href="#">IndustryNav</a></b></div>
+      <div class="tl-item"><span class="tl-month">Aug</span> Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳</div>
+      <div class="tl-item"><span class="tl-month">Jun</span> New preprint is out: check out <b><a href="#">Video-Skill-CoT</a></b></div>
+      <div class="tl-item"><span class="tl-month">May</span> Join <span class="text-accent-org">Adobe Research</span> for 2025 Summer Research Intern!</div>
+      <div class="tl-item"><span class="tl-month">Jan</span> Invited talk at <span class="text-accent-org">Cisco Meraki</span></div>
+
+      <div class="news-hidden-b" id="older-news-b">
+        <div class="tl-year"><span>2024</span></div>
+        <div class="tl-item"><span class="tl-month">Nov</span> New preprint is out: check out <b><a href="#">VideoRepair</a></b></div>
+        <div class="tl-item"><span class="tl-month">Aug</span> Started PhD journey at the UNC Chapel Hill <span class="text-accent-org">MURGe-Lab</span> 🎓</div>
+        <div class="tl-item"><span class="tl-month">May</span> BECoTTA is accepted to <span class="text-accent">ICML 2024</span> 🇦🇹</div>
+        <div class="tl-item"><span class="tl-month">Apr</span> One paper is accepted to <span class="text-accent">CVPRW 2024</span> 🇺🇸</div>
+
+        <div class="tl-year"><span>2023</span></div>
+        <div class="tl-item"><span class="tl-month">Jan</span> One paper is oral-presented at <span class="text-accent">WACV 2023</span> 🏝️</div>
+
+        <div class="tl-year"><span>2022</span></div>
+        <div class="tl-item"><span class="tl-month">Dec</span> I finished my first research internship at <span class="text-accent-org">NAVER LABS</span>!</div>
+      </div>
+    </div>
+    <div class="show-more-btn" onclick="toggleShowMore();" id="show-more-btn-b">Show earlier news (2022&ndash;24) &#9662;</div>
+
+    <!-- ===== C: Accordion ===== -->
+    <hr>
+    <h2>C: Accordion (Collapsible)</h2>
+    <h3>click a year to expand/collapse &mdash; default: latest open</h3>
+
+    <div class="tl">
+      <div class="acc-header open" onclick="toggleAcc(this)"><span class="acc-arrow">&#9654;</span> <span style="font-weight:700;font-size:14px;color:#c15b79;">2026</span></div>
+      <div class="acc-body open">
+        <div class="tl-item"><span class="tl-month">Jul</span> VisionCoach is accepted to <span class="text-accent">ECCV 2026</span> 🇮🇹</div>
+        <div class="tl-item"><span class="tl-month">May</span> Join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Research Intern!</div>
+        <div class="tl-item"><span class="tl-month">Apr</span> VideoRepair is accepted to <span class="text-accent">ACL 2026 Findings</span> 🌊</div>
+        <div class="tl-item"><span class="tl-month">Mar</span> New preprint is out: check out <b><a href="#">VisionCoach</a></b></div>
+        <div class="tl-item"><span class="tl-month">Feb</span> StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅</div>
+      </div>
+
+      <div class="acc-header" onclick="toggleAcc(this)"><span class="acc-arrow">&#9654;</span> <span style="font-weight:700;font-size:14px;color:#c15b79;">2025</span></div>
+      <div class="acc-body">
+        <div class="tl-item"><span class="tl-month">Dec</span> New preprint is out: check out <b><a href="#">StreamGaze</a></b> and <b><a href="#">IndustryNav</a></b></div>
+        <div class="tl-item"><span class="tl-month">Aug</span> Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳</div>
+        <div class="tl-item"><span class="tl-month">Jun</span> New preprint is out: check out <b><a href="#">Video-Skill-CoT</a></b></div>
+        <div class="tl-item"><span class="tl-month">May</span> Join <span class="text-accent-org">Adobe Research</span> for 2025 Summer Research Intern!</div>
+        <div class="tl-item"><span class="tl-month">Jan</span> Invited talk at <span class="text-accent-org">Cisco Meraki</span></div>
+      </div>
+
+      <div class="acc-header" onclick="toggleAcc(this)"><span class="acc-arrow">&#9654;</span> <span style="font-weight:700;font-size:14px;color:#c15b79;">2024</span></div>
+      <div class="acc-body">
+        <div class="tl-item"><span class="tl-month">Nov</span> New preprint is out: check out <b><a href="#">VideoRepair</a></b></div>
+        <div class="tl-item"><span class="tl-month">Aug</span> Started PhD journey at the UNC Chapel Hill <span class="text-accent-org">MURGe-Lab</span> 🎓</div>
+        <div class="tl-item"><span class="tl-month">May</span> BECoTTA is accepted to <span class="text-accent">ICML 2024</span> 🇦🇹</div>
+        <div class="tl-item"><span class="tl-month">Apr</span> One paper is accepted to <span class="text-accent">CVPRW 2024</span> 🇺🇸</div>
+      </div>
+
+      <div class="acc-header" onclick="toggleAcc(this)"><span class="acc-arrow">&#9654;</span> <span style="font-weight:700;font-size:14px;color:#c15b79;">2023</span></div>
+      <div class="acc-body">
+        <div class="tl-item"><span class="tl-month">Jan</span> One paper is oral-presented at <span class="text-accent">WACV 2023</span> 🏝️</div>
+      </div>
+
+      <div class="acc-header" onclick="toggleAcc(this)"><span class="acc-arrow">&#9654;</span> <span style="font-weight:700;font-size:14px;color:#c15b79;">2022</span></div>
+      <div class="acc-body">
+        <div class="tl-item"><span class="tl-month">Dec</span> I finished my first research internship at <span class="text-accent-org">NAVER LABS</span>!</div>
+      </div>
+    </div>
+
+    <!-- ===== D: Scroll Box ===== -->
+    <hr>
+    <h2>D: Scroll Box</h2>
+    <h3>fixed height with scrollbar &mdash; timeline stays intact</h3>
+
+    <div class="scroll-box">
+      <div class="tl">
+        <div class="tl-year"><span>2026</span></div>
+        <div class="tl-item"><span class="tl-month">Jul</span> VisionCoach is accepted to <span class="text-accent">ECCV 2026</span> 🇮🇹</div>
+        <div class="tl-item"><span class="tl-month">May</span> Join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Research Intern!</div>
+        <div class="tl-item"><span class="tl-month">Apr</span> VideoRepair is accepted to <span class="text-accent">ACL 2026 Findings</span> 🌊</div>
+        <div class="tl-item"><span class="tl-month">Mar</span> New preprint is out: check out <b><a href="#">VisionCoach</a></b></div>
+        <div class="tl-item"><span class="tl-month">Feb</span> StreamGaze is accepted to <span class="text-accent">CVPR 2026</span> 🌅</div>
+
+        <div class="tl-year"><span>2025</span></div>
+        <div class="tl-item"><span class="tl-month">Dec</span> New preprint is out: check out <b><a href="#">StreamGaze</a></b> and <b><a href="#">IndustryNav</a></b></div>
+        <div class="tl-item"><span class="tl-month">Aug</span> Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳</div>
+        <div class="tl-item"><span class="tl-month">Jun</span> New preprint is out: check out <b><a href="#">Video-Skill-CoT</a></b></div>
+        <div class="tl-item"><span class="tl-month">May</span> Join <span class="text-accent-org">Adobe Research</span> for 2025 Summer Research Intern!</div>
+        <div class="tl-item"><span class="tl-month">Jan</span> Invited talk at <span class="text-accent-org">Cisco Meraki</span></div>
+
+        <div class="tl-year"><span>2024</span></div>
+        <div class="tl-item"><span class="tl-month">Nov</span> New preprint is out: check out <b><a href="#">VideoRepair</a></b></div>
+        <div class="tl-item"><span class="tl-month">Aug</span> Started PhD journey at the UNC Chapel Hill <span class="text-accent-org">MURGe-Lab</span> 🎓</div>
+        <div class="tl-item"><span class="tl-month">May</span> BECoTTA is accepted to <span class="text-accent">ICML 2024</span> 🇦🇹</div>
+        <div class="tl-item"><span class="tl-month">Apr</span> One paper is accepted to <span class="text-accent">CVPRW 2024</span> 🇺🇸</div>
+
+        <div class="tl-year"><span>2023</span></div>
+        <div class="tl-item"><span class="tl-month">Jan</span> One paper is oral-presented at <span class="text-accent">WACV 2023</span> 🏝️</div>
+
+        <div class="tl-year"><span>2022</span></div>
+        <div class="tl-item"><span class="tl-month">Dec</span> I finished my first research internship at <span class="text-accent-org">NAVER LABS</span>!</div>
+      </div>
+    </div>
+
+    <hr>
+    <p style="color:#aaa; font-size:12px; text-align:center;">Pick a layout!</p>
+
+    <script>
+    function switchTab(group, year) {
+      document.querySelectorAll('#tabs-' + group + ' .year-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('[id^="' + group + '-"]').forEach(p => p.classList.remove('active'));
+      event.target.classList.add('active');
+      document.getElementById(group + '-' + year).classList.add('active');
+    }
+
+    function toggleShowMore() {
+      var el = document.getElementById('older-news-b');
+      var btn = document.getElementById('show-more-btn-b');
+      el.classList.toggle('open');
+      btn.textContent = el.classList.contains('open') ? 'Hide earlier news ▴' : 'Show earlier news (2022–24) ▾';
+    }
+
+    function toggleAcc(header) {
+      header.classList.toggle('open');
+      var body = header.nextElementSibling;
+      body.classList.toggle('open');
+    }
+    </script>
+
+  </body>
+</html>

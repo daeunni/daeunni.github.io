@@ -6,6 +6,9 @@
 {% for link in site.data.publications.main %}
 
 <li>
+{% if link.tagline %}
+<div class="tagline-row"><span class="pub-tagline">🔎 {{ link.tagline }}</span></div>
+{% endif %}
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Tagline Design Preview</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+body { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; max-width: 960px; margin: 0 auto; padding: 40px 20px; }
+h1 { font-weight: 700; color: #c15b79; font-size: 22px; margin-bottom: 8px; }
+h2 { font-weight: 600; color: #e36b8f; font-size: 17px; margin: 40px 0 6px; }
+h3 { font-weight: 600; color: #888; font-size: 13px; margin: 0 0 16px; letter-spacing: 0.3px; }
+a { color: #4a7dc0; text-decoration: none; }
+a:hover { color: rgb(119, 146, 255); }
+.highlight { background-color: #fee9f6; padding: 0 4px; border-radius: 2px; }
+hr { border: 0; height: 2px; background: linear-gradient(to right, #e8a0b8, #8ccba0, transparent); margin: 36px 0; }
+
+.pub-row { display: flex; align-items: center; transition: all 0.3s ease; padding: 10px 14px; border-radius: 10px; margin: -10px -14px; }
+.pub-row:hover { transform: translateY(-2px); background: linear-gradient(135deg, #fef5fa, #f0f9f2); box-shadow: 0 4px 16px rgba(227, 107, 143, 0.13); }
+
+:root { --global-theme-color: #002D72; }
+.badge { display: inline-block; padding: 0.25em 0.4em; font-size: 75%; font-weight: 700; line-height: 1; text-align: center; white-space: nowrap; border-radius: 0.125rem; color: #fff !important; box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%); }
+
+.publications { margin-top: 12px; }
+.publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
+.publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
+.publications ol.bibliography li .abbr { height: 8rem; margin-bottom: 0.5rem; }
+.publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; position: absolute; top: 8px; left: 16px; }
+.publications ol.bibliography li .title { font-weight: bolder; }
+.publications ol.bibliography li .author { font-size: 12.5px; color: #888; margin: 3px 0; }
+.publications ol.bibliography li .links a.btn { color: #000; border: 1px solid #000; padding: 0.1rem 0.5rem; font-size: 12px; border-radius: 3px; display: inline-block; }
+.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+/* ============================
+   STYLE A: Highlighter (above)
+   ============================ */
+.tagline-a {
+  display: inline;
+  font-size: 12.5px;
+  color: #5D4E37;
+  background: linear-gradient(transparent 20%, #FFF9C4 20%, #FFF9C4 85%, transparent 85%);
+  padding: 2px 6px;
+  line-height: 1.8;
+}
+.tagline-row-a {
+  margin-bottom: 6px;
+  padding-left: 2px;
+}
+
+/* ============================
+   STYLE B: Round pill tag (above)
+   ============================ */
+.tagline-b {
+  display: inline-block;
+  font-size: 12.5px;
+  color: #5D4E37;
+  background: #FFF8E1;
+  border: 1px solid #FFE082;
+  border-radius: 16px;
+  padding: 3px 12px;
+}
+.tagline-row-b {
+  margin-bottom: 6px;
+  padding-left: 2px;
+}
+
+/* ============================
+   STYLE C: Left bar accent (above)
+   ============================ */
+.tagline-c {
+  display: block;
+  font-size: 12.5px;
+  color: #5D4E37;
+  border-left: 3px solid #FFD54F;
+  background: #FFFDE7;
+  padding: 4px 10px;
+  line-height: 1.5;
+}
+.tagline-row-c {
+  margin-bottom: 6px;
+}
+
+/* ============================
+   STYLE D: Gradient highlighter (above)
+   ============================ */
+.tagline-d {
+  display: inline-block;
+  font-size: 12.5px;
+  color: #5D4E37;
+  background: linear-gradient(to right, #FFE082 0%, #FFF8E1 60%, transparent 100%);
+  padding: 4px 14px 4px 10px;
+  border-radius: 2px;
+}
+.tagline-row-d {
+  margin-bottom: 6px;
+  padding-left: 2px;
+}
+    </style>
+  </head>
+  <body>
+
+    <h1>Publication Tagline Design Preview</h1>
+    <p style="color:#888; font-size:13px; margin-bottom: 0;">tagline is placed <b>above</b> the title &amp; image</p>
+
+    <!-- ===== STYLE A ===== -->
+    <hr>
+    <h2>Style A: Highlighter</h2>
+    <h3>real highlighter feel &mdash; text painted with a marker pen</h3>
+
+    <div class="publications"><ol class="bibliography">
+
+    <li>
+    <div class="tagline-row-a"><span class="tagline-a">&#x1F50E; How far current streaming video understanding to AR glasses?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/streamgaze_demo.gif" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">CVPR</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal</div>
+          <div class="periodical"><em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    <li>
+    <div class="tagline-row-a"><span class="tagline-a">&#x1F527; Can text-to-video models detect and self-repair their own misalignments?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/teaser_final_verylarge_v2.gif" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">ACL Findings</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal</div>
+          <div class="periodical"><em>The 64th Annual Meeting of the Association for Computational Linguistics <b>(ACL) Findings</b>, 2026.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    <li>
+    <div class="tagline-row-a"><span class="tagline-a">&#x1F504; How to adapt models to ever-changing environments without forgetting?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/becotta_v2.png" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">ICML</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang</div>
+          <div class="periodical"><em>International Conference on Machine Learning <b>(ICML)</b>, 2024.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    </ol></div>
+
+    <!-- ===== STYLE B ===== -->
+    <hr>
+    <h2>Style B: Round Pill Tag</h2>
+    <h3>clean rounded capsule with subtle border</h3>
+
+    <div class="publications"><ol class="bibliography">
+
+    <li>
+    <div class="tagline-row-b"><span class="tagline-b">&#x1F50E; How far current streaming video understanding to AR glasses?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/streamgaze_demo.gif" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">CVPR</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal</div>
+          <div class="periodical"><em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    <li>
+    <div class="tagline-row-b"><span class="tagline-b">&#x1F527; Can text-to-video models detect and self-repair their own misalignments?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/teaser_final_verylarge_v2.gif" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">ACL Findings</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal</div>
+          <div class="periodical"><em>The 64th Annual Meeting of the Association for Computational Linguistics <b>(ACL) Findings</b>, 2026.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    <li>
+    <div class="tagline-row-b"><span class="tagline-b">&#x1F504; How to adapt models to ever-changing environments without forgetting?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/becotta_v2.png" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">ICML</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang</div>
+          <div class="periodical"><em>International Conference on Machine Learning <b>(ICML)</b>, 2024.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    </ol></div>
+
+    <!-- ===== STYLE C ===== -->
+    <hr>
+    <h2>Style C: Left Bar Accent</h2>
+    <h3>blockquote-style with yellow accent bar</h3>
+
+    <div class="publications"><ol class="bibliography">
+
+    <li>
+    <div class="tagline-row-c"><div class="tagline-c">&#x1F50E; How far current streaming video understanding to AR glasses?</div></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/streamgaze_demo.gif" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">CVPR</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal</div>
+          <div class="periodical"><em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    <li>
+    <div class="tagline-row-c"><div class="tagline-c">&#x1F527; Can text-to-video models detect and self-repair their own misalignments?</div></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/teaser_final_verylarge_v2.gif" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">ACL Findings</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal</div>
+          <div class="periodical"><em>The 64th Annual Meeting of the Association for Computational Linguistics <b>(ACL) Findings</b>, 2026.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    <li>
+    <div class="tagline-row-c"><div class="tagline-c">&#x1F504; How to adapt models to ever-changing environments without forgetting?</div></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/becotta_v2.png" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">ICML</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang</div>
+          <div class="periodical"><em>International Conference on Machine Learning <b>(ICML)</b>, 2024.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    </ol></div>
+
+    <!-- ===== STYLE D ===== -->
+    <hr>
+    <h2>Style D: Gradient Highlighter</h2>
+    <h3>fading gradient from left to right</h3>
+
+    <div class="publications"><ol class="bibliography">
+
+    <li>
+    <div class="tagline-row-d"><span class="tagline-d">&#x1F50E; How far current streaming video understanding to AR glasses?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/streamgaze_demo.gif" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">CVPR</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal</div>
+          <div class="periodical"><em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    <li>
+    <div class="tagline-row-d"><span class="tagline-d">&#x1F527; Can text-to-video models detect and self-repair their own misalignments?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/teaser_final_verylarge_v2.gif" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">ACL Findings</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal</div>
+          <div class="periodical"><em>The 64th Annual Meeting of the Association for Computational Linguistics <b>(ACL) Findings</b>, 2026.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    <li>
+    <div class="tagline-row-d"><span class="tagline-d">&#x1F504; How to adapt models to ever-changing environments without forgetting?</span></div>
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="./assets/img/becotta_v2.png" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">ICML</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><a href="#">BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation</a></div>
+          <div class="author"><span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang</div>
+          <div class="periodical"><em>International Conference on Machine Learning <b>(ICML)</b>, 2024.</em></div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+    </li><br>
+
+    </ol></div>
+
+    <hr>
+    <p style="color:#aaa; font-size:12px; text-align:center;">Pick a style, then I'll apply it to all publications!</p>
+
+  </body>
+</html>

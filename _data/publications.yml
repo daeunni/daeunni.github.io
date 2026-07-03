@@ -6,6 +6,7 @@ main:
     pdf: https://arxiv.org/abs/2511.17384
     code: https://github.com/JackYFL/IndustryEQA
     image: ./assets/img/industry.png
+    tagline: "Can robots reason about space in dynamic industrial environments?"
 
   - title: "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Shoubin Yu, Yue Zhang, Mohit Bansal
@@ -14,23 +15,26 @@ main:
     pdf: https://arxiv.org/pdf/2603.14659
     code: https://visioncoach.github.io/
     image: ./assets/img/visioncoach.gif
-    
+    tagline: "Can grounded video reasoning models self-improve via visual prompting?"
+
   - title: "VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal
     conference_short: ACL Findings
-    conference: The 64th Annual Meeting of the Association for Computational Linguistics <b>(ACL) Findings</b>, 2026. 
+    conference: The 64th Annual Meeting of the Association for Computational Linguistics <b>(ACL) Findings</b>, 2026.
     pdf: https://arxiv.org/pdf/2411.15115
     code: https://github.com/daeunni/VideoRepair
     image: ./assets/img/teaser_final_verylarge_v2.gif
+    tagline: "Can text-to-video models detect and self-repair their own errors?"
 
   - title: "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
-    conference_short: CVPR 
+    conference_short: CVPR
     conference: The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.
     pdf: https://arxiv.org/pdf/2512.01707
     code: https://github.com/daeunni/StreamGaze
     image: ./assets/img/streamgaze_demo.gif
     notes: <span style="font-size:11px;">Accepted with strong scores (5/5/5) but desk-rejected after camera-ready because of coauthor's irresponsible reviewing.</span>
+    tagline: "How far current streaming video understanding to AR glasses?"
 
   - title: "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning"
     authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal
@@ -39,6 +43,7 @@ main:
     pdf: https://arxiv.org/pdf/2506.03525
     code: https://github.com/daeunni/Video-Skill-CoT
     image: ./assets/img/video-skill-cot.gif
+    tagline: "Can skill-based reasoning help video models adapt across domains?"
 
   - title: "BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation"
     authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang
@@ -47,13 +52,15 @@ main:
     pdf: https://arxiv.org/pdf/2402.08712
     code: https://github.com/daeunni/BECoTTA
     image: ./assets/img/becotta_v2.png
-    
+    tagline: "Let's use mixture-of-domain experts for efficient continual test-time adaptation!"
+
   - title: "HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Minhyeok Heo, Jiwon Kim
     conference_short: CVPRW
     conference: CVPR Data-Driven Autonomous Driving Simulation Workshop <b>(CVPRW)</b>, 2024.
     pdf: https://arxiv.org/pdf/2311.16589
     image: ./assets/img/new_hdmap.png
+    tagline: "Can HD maps teach lane detectors to generalize across domains?"
 
   - title: "Resolving Class Imbalance for LiDAR-based Object Detector by Dynamic Weight Average and Contextual Ground Truth Sampling"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jinkyu Kim
@@ -61,10 +68,12 @@ main:
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <b>(WACV)</b>, 2023.
     pdf: https://openaccess.thecvf.com/content/WACV2023/papers/Lee_Resolving_Class_Imbalance_for_LiDAR-Based_Object_Detector_by_Dynamic_Weight_WACV_2023_paper.pdf
     image: ./assets/img/wacv23.png
-  
+    tagline: "How to detect rare objects in LiDAR point clouds?"
+
   - title: "Bridging the Domain Gap towards Generalization in Automatic Colorization"
     authors: Hyejin Lee, Daehee Kim, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jinkyu Kim, Jaekoo Lee
     conference_short: ECCV
     conference: European Conference on Computer Vision <b>(ECCV)</b>, 2022.
     pdf: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770530.pdf
     image: ./assets/img/eccv22.png
+    tagline: "Can automatic colorization generalize beyond its training domain?"
