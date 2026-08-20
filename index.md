@@ -5,7 +5,7 @@ layout: homepage
 
 ## About Me
 
-Thanks for visiting my website! ✨ I am a 2nd year Ph.D. student at UNC Chapel Hill, <b>[MURGe-Lab](https://murgelab.cs.unc.edu/)</b> working with Prof. <b>[Mohit Bansal](https://www.cs.unc.edu/~mbansal/)</b>.
+Thanks for visiting my website! ✨ I am a 3rd year Ph.D. student at UNC Chapel Hill, <b>[MURGe-Lab](https://murgelab.cs.unc.edu/)</b> working with Prof. <b>[Mohit Bansal](https://www.cs.unc.edu/~mbansal/)</b>.
 Previously, I was advised by Prof. <b>[Jinkyu Kim](https://visionai.korea.ac.kr/)</b> at Korea University, Prof. <b>[Sung Ju Hwang](http://www.sungjuhwang.com/)</b> at KAIST. 
 I have also spent time as a Research Intern at <span class="text-accent-org">Adobe Research</span> (2025) and <span class="text-accent-org">Meta</span> (2026).
 
