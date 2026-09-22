@@ -9,7 +9,6 @@ Thanks for visiting my website! ✨ I am a 3rd year Ph.D. student at UNC Chapel 
 Previously, I was advised by Prof. <b>[Jinkyu Kim](https://visionai.korea.ac.kr/)</b> at Korea University, Prof. <b>[Sung Ju Hwang](http://www.sungjuhwang.com/)</b> at KAIST. 
 I have also spent time as a Research Intern at <span class="text-accent-org">Adobe Research</span> (2025) and <span class="text-accent-org">Meta Superintelligence Labs</span> (2026).
 
-🤭 I know my name Daeun (다은) can be a little tricky to pronounce! It sounds somewhat like "down" — you can hear it <b><a href="https://ipa-reader.com/?text=%2Fda.%C9%AFn%2F&utm_source=chatgpt.com">here</a></b>. Or just call me Dana!
 
 </div>
 
