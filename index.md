@@ -22,7 +22,8 @@ My current research interests include:
 - <span class="highlight"><b><u>Video (Multimodal) Reasoning, Generation, and Understanding</u></b></span>, with RL and post-training.
 - <span class="highlight"><b><u>Embodied AI with Diverse Sensor Modalities</u></b></span>, including gaze, audio, 3D LiDAR, HD maps, and other multimodal signals.
 
-💗 If you are working on fun ideas related to video, AR glasses, or egocentric perception and reasoning, I'd love to collaborate! 
+💗 If you are working on fun ideas related to video, AR glasses, or egocentric perception and reasoning, I'd love to collaborate!
+
 ---
 
 ## News
