@@ -7,7 +7,7 @@ layout: homepage
 
 Thanks for visiting my website! ✨ I am a 3rd year Ph.D. student at UNC Chapel Hill, <b>[MURGe-Lab](https://murgelab.cs.unc.edu/)</b> working with Prof. <b>[Mohit Bansal](https://www.cs.unc.edu/~mbansal/)</b>.
 Previously, I was advised by Prof. <b>[Jinkyu Kim](https://visionai.korea.ac.kr/)</b> at Korea University, Prof. <b>[Sung Ju Hwang](http://www.sungjuhwang.com/)</b> at KAIST. 
-I have also spent time as a Research Intern at <span class="text-accent-org">Adobe Research</span> (2025) and <span class="text-accent-org">Meta</span> (2026).
+I have also spent time as a Research Intern at <span class="text-accent-org">Adobe Research</span> (2025) and <span class="text-accent-org">Meta Superintelligence Labs</span> (2026).
 
 </div>
 
@@ -15,15 +15,14 @@ I have also spent time as a Research Intern at <span class="text-accent-org">Ado
 
 ## Research Direction
 
-I believe technology should ultimately help people. Now, I am interested in how we can make a better world for underrepresented people through *Multimodal AI*. 
+Here is my <b><a href="assets/files/Daeun_Research_Statement.pdf">Research Statement</a></b> 🔎
 
-My research interests include:
+My current research interests include:
 
 - <span class="highlight"><b><u>Video (Multimodal) Reasoning, Generation, and Understanding</u></b></span>, with RL and post-training.
 - <span class="highlight"><b><u>Embodied AI with Diverse Sensor Modalities</u></b></span>, including gaze, audio, 3D LiDAR, HD maps, and other multimodal signals.
 
-💗 If you are working on fun ideas related to video, AR glasses, or egocentric perception and reasoning, I'd love to collaborate!
-
+💗 If you are working on fun ideas related to video, AR glasses, or egocentric perception and reasoning, I'd love to collaborate! 
 ---
 
 ## News
