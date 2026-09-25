@@ -29,6 +29,7 @@ Here is my <b><a href="assets/files/Daeun_Research_Statement.pdf">Research State
 
 <div class="timeline">
   <div class="timeline-year"><span class="year-label">2026</span></div>
+  <div class="timeline-item"><span class="timeline-month">Sep</span> StreamGaze is (re)accepted to <span class="text-accent">NeurIPS 2026</span> 🇦🇺</div>
   <div class="timeline-item"><span class="timeline-month">Jun</span> VisionCoach is accepted to <span class="text-accent">ECCV 2026</span> 🇸🇪</div>
   <div class="timeline-item"><span class="timeline-month">May</span> Join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Research Intern!</div>
   <div class="timeline-item"><span class="timeline-month">Apr</span> VideoRepair is accepted to <span class="text-accent">ACL 2026 Findings</span> 🌊</div>

@@ -8,6 +8,16 @@ main:
     image: ./assets/img/industry.png
     tagline: "Can robots reason about space in dynamic industrial environments?"
 
+  - title: "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos"
+    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
+    conference_short: NeurIPS
+    conference: The 40th Neural Information Processing Systems, Evaluations and Datasets Track <b>(NeurIPS)</b>, 2026.
+    pdf: https://arxiv.org/pdf/2512.01707
+    code: https://github.com/daeunni/StreamGaze
+    image: ./assets/img/streamgaze_demo.gif
+    notes: <span style="font-size:11px;">Also accepted to CVPR 2026 with strong scores (5/5/5) but desk-rejected after camera-ready because of coauthor's reviewing policy issue.</span>
+    tagline: "How far current streaming video understanding to AR glasses?"
+
   - title: "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting"
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Shoubin Yu, Yue Zhang, Mohit Bansal
     conference_short: ECCV
@@ -25,16 +35,6 @@ main:
     code: https://github.com/daeunni/VideoRepair
     image: ./assets/img/teaser_final_verylarge_v2.gif
     tagline: "Can text-to-video models detect and self-repair their own errors?"
-
-  - title: "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos"
-    authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
-    conference_short: CVPR
-    conference: The IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026.
-    pdf: https://arxiv.org/pdf/2512.01707
-    code: https://github.com/daeunni/StreamGaze
-    image: ./assets/img/streamgaze_demo.gif
-    notes: <span style="font-size:11px;">Accepted with strong scores (5/5/5) but desk-rejected after camera-ready because of coauthor's irresponsible reviewing.</span>
-    tagline: "How far current streaming video understanding to AR glasses?"
 
   - title: "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning"
     authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal
