@@ -41,7 +41,6 @@ Here is my <b><a href="assets/files/Daeun_Research_Statement.pdf">Research State
   <div class="timeline-item"><span class="timeline-month">Dec</span> New preprint is out: check out <b><a href="https://streamgaze.github.io/">StreamGaze</a></b> and <b><a href="https://arxiv.org/pdf/2511.17384">IndustryNav</a></b></div>
   <div class="timeline-item"><span class="timeline-month">Aug</span> Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳</div>
   <div class="timeline-item"><span class="timeline-month">Jun</span> New preprint is out: check out <b><a href="https://video-skill-cot.github.io/">Video-Skill-CoT</a></b></div>
-  <div class="timeline-item"><span class="timeline-month">Sep</span> Invited talk at <span class="text-accent-org">SKKU Google Developer Groups</span></div>
   <div class="timeline-item"><span class="timeline-month">May</span> Join <span class="text-accent-org">Adobe Research</span> for 2025 Summer Research Intern!</div>
   <div class="timeline-item"><span class="timeline-month">Jan</span> Invited talk at <span class="text-accent-org">Cisco</span></div>
 
