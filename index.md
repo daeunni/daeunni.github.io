@@ -7,7 +7,7 @@ layout: homepage
 
 Thanks for visiting my website! ✨ I am a 3rd year Ph.D. student at UNC Chapel Hill, <b>[MURGe-Lab](https://murgelab.cs.unc.edu/)</b> working with Prof. <b>[Mohit Bansal](https://www.cs.unc.edu/~mbansal/)</b>.
 Previously, I was advised by Prof. <b>[Jinkyu Kim](https://visionai.korea.ac.kr/)</b> at Korea University, Prof. <b>[Sung Ju Hwang](http://www.sungjuhwang.com/)</b> at KAIST. 
-I have also spent time as a Research Intern at <span class="text-accent-org">Adobe Research</span> (2025) and <span class="text-accent-org">Meta Superintelligence Labs</span> (2026).
+I have also spent time as a Research Intern at <span class="text-accent-org">Adobe Research</span> (2025) and <span class="text-accent-org">Meta Superintelligence Labs</span> (2026), and will be joining <span class="text-accent-org">Google XR</span> as a Student Researcher in Dec 2026.
 
 
 </div>
@@ -29,6 +29,7 @@ Here is my <b><a href="assets/files/Daeun_Research_Statement.pdf">Research State
 
 <div class="timeline">
   <div class="timeline-year"><span class="year-label">2026</span></div>
+  <div class="timeline-item"><span class="timeline-month">Dec</span> Joining <span class="text-accent-org">Google XR</span> as a Student Researcher!</div>
   <div class="timeline-item"><span class="timeline-month">Sep</span> StreamGaze is (re)accepted to <span class="text-accent">NeurIPS 2026</span> 🇦🇺</div>
   <div class="timeline-item"><span class="timeline-month">Jun</span> VisionCoach is accepted to <span class="text-accent">ECCV 2026</span> 🇸🇪</div>
   <div class="timeline-item"><span class="timeline-month">May</span> Join <span class="text-accent-org">Meta Superintelligence Labs</span> for 2026 Summer Research Intern!</div>
@@ -40,8 +41,9 @@ Here is my <b><a href="assets/files/Daeun_Research_Statement.pdf">Research State
   <div class="timeline-item"><span class="timeline-month">Dec</span> New preprint is out: check out <b><a href="https://streamgaze.github.io/">StreamGaze</a></b> and <b><a href="https://arxiv.org/pdf/2511.17384">IndustryNav</a></b></div>
   <div class="timeline-item"><span class="timeline-month">Aug</span> Video-Skill-CoT is accepted to <span class="text-accent">EMNLP 2025 Findings</span> 🇨🇳</div>
   <div class="timeline-item"><span class="timeline-month">Jun</span> New preprint is out: check out <b><a href="https://video-skill-cot.github.io/">Video-Skill-CoT</a></b></div>
+  <div class="timeline-item"><span class="timeline-month">Sep</span> Invited talk at <span class="text-accent-org">SKKU Google Developer Groups</span></div>
   <div class="timeline-item"><span class="timeline-month">May</span> Join <span class="text-accent-org">Adobe Research</span> for 2025 Summer Research Intern!</div>
-  <div class="timeline-item"><span class="timeline-month">Jan</span> Invited talk at <span class="text-accent-org">Cisco Meraki</span></div>
+  <div class="timeline-item"><span class="timeline-month">Jan</span> Invited talk at <span class="text-accent-org">Cisco</span></div>
 
   <div class="timeline-year"><span class="year-label">2024</span></div>
   <div class="timeline-item"><span class="timeline-month">Nov</span> New preprint is out: check out <b><a href="https://video-repair.github.io/">VideoRepair</a></b></div>

@@ -77,3 +77,9 @@ main:
     pdf: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770530.pdf
     image: ./assets/img/eccv22.png
     tagline: "Can automatic colorization generalize beyond its training domain?"
+
+  - title: "Trajectory Prediction by Clustering Human Interactions at Multiple Scales"
+    authors: Chiho Choi*, <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Srikanth Malla, Sangjae Bae, Jinkyu Kim
+    conference_short:
+    conference: preprint
+    tagline: "How to predict trajectories by modeling multi-scale human interactions?"
