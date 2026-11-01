@@ -276,9 +276,10 @@ h2::after { content: ""; flex: 1; height: 1px; margin-left: .4em; background: va
 .scene { position: relative; }
 .scene-3d { display: none; width: 100%; aspect-ratio: 1.22; cursor: grab; touch-action: pan-y; }
 .scene-3d.is-dragging { cursor: grabbing; }
-.scene-3d canvas { display: block; width: 100% !important; height: 100% !important; }
-.scene.is-3d .scene-3d { display: block; }
-.scene.is-3d .scene-tilt { display: none; }
+.scene-3d canvas { display: block; width: 100% !important; height: 100% !important; opacity: 0; transition: opacity .5s ease; }
+.scene.is-3d .scene-3d, .has-3d .scene-3d { display: block; }
+.scene.is-3d .scene-tilt, .has-3d .scene-tilt { display: none; }
+.scene.is-3d .scene-3d canvas { opacity: 1; }
 .scene-labels { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
 .scene-hint { display: none; position: absolute; right: 4px; bottom: 2px; margin: 0; font-family: var(--font-hand); font-size: .95rem; color: var(--text-soft); pointer-events: none; }
 .scene.is-3d .scene-hint { display: block; }

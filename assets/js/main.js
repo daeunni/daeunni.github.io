@@ -200,7 +200,10 @@
         io3d.disconnect();
         import('./scene3d.js')
           .then(function (m) { return m.initScene(scene); })
-          .catch(function (err) { console.warn('3D scene unavailable, keeping the illustration.', err); });
+          .catch(function (err) {
+            console.warn('3D scene unavailable, showing the illustration.', err);
+            document.documentElement.classList.remove('has-3d');
+          });
       }, { rootMargin: '600px 0px' });
       io3d.observe(scene);
     }

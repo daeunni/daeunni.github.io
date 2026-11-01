@@ -33,6 +33,8 @@
         var t = localStorage.getItem('theme');
         {% unless site.auto_dark_mode %}if (!t) t = 'light';{% endunless %}
         if (t) document.documentElement.setAttribute('data-theme', t);
+        // Reserve the 3D kitchen's spot up front so the fallback illustration never flashes.
+        if (window.WebGLRenderingContext) document.documentElement.classList.add('has-3d');
       })();
     </script>
     <script type="importmap">{ "imports": { "three": "./assets/js/vendor/three/three.module.min.js" } }</script>
