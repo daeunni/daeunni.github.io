@@ -1,0 +1,48 @@
+<div class="vision" id="vision">
+
+  <div class="vision-head">
+    <h3 class="vision-title">AI that <em>thinks</em> and <em>acts</em> according to what it <em>senses</em>.</h3>
+    <p class="vision-q">How can we <b>expand what AI can sense</b>, and how should its <b>intelligence adapt to what it senses</b>?</p>
+  </div>
+
+  <div class="scene-wrap">
+    <div class="scene" data-step="sense" data-models="./assets/models/">
+      <div class="scene-3d" aria-label="Interactive 3D kitchen: drag to rotate"></div>
+      <div class="scene-labels" aria-hidden="true"></div>
+      <p class="scene-hint">drag to rotate ↻</p>
+      <div class="scene-tilt">
+{% include scene.svg %}
+      </div>
+    </div>
+
+    <div class="scene-steps" role="tablist" aria-label="Sense, reason, act">
+      <div class="step is-active" data-step="sense">
+        <button class="step-head" role="tab" aria-selected="true"><span class="step-no">01</span> Sense <span class="step-emoji">👀</span></button>
+        <div class="step-body">
+          <p>The physical world never reveals itself through one modality. Cameras see part of the kitchen; <b>gaze</b> shows where her attention is, <b>audio</b> hears the kettle, <b>LiDAR</b> maps 3D space.</p>
+          <div class="sensor-toggles" aria-label="Toggle sensors">
+            <button class="sensor-toggle is-on" data-layer="cam" aria-pressed="true">📷 Camera</button>
+            <button class="sensor-toggle is-on" data-layer="gaze" aria-pressed="true">👁️ Gaze</button>
+            <button class="sensor-toggle is-on" data-layer="audio" aria-pressed="true">🎧 Audio</button>
+            <button class="sensor-toggle is-on" data-layer="lidar" aria-pressed="true">🛰️ LiDAR</button>
+          </div>
+          <p class="step-hint">Toggle the sensors to see what each one adds.</p>
+        </div>
+      </div>
+      <div class="step" data-step="reason">
+        <button class="step-head" role="tab" aria-selected="false"><span class="step-no">02</span> Reason <span class="step-emoji">🧠</span></button>
+        <div class="step-body">
+          <p>The agent fuses this evidence and <b>adapts how it reasons</b> to it, and also recognizes <b>when perception is not enough</b>: the medicine bottle is hidden.</p>
+        </div>
+      </div>
+      <div class="step" data-step="act">
+        <button class="step-head" role="tab" aria-selected="false"><span class="step-no">03</span> Act <span class="step-emoji">🤖</span></button>
+        <div class="step-body">
+          <p>So it <b>acts to get the evidence it needs</b>: it moves for a clearer view, confirms the bottle by touch, and proactively alerts her. Each action reshapes what it perceives next.</p>
+        </div>
+      </div>
+      <button class="replay" type="button">↺ Replay the loop</button>
+    </div>
+  </div>
+
+</div>

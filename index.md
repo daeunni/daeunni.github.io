@@ -1,29 +1,29 @@
 ---
 layout: homepage
 ---
+
+<section id="about" class="block" markdown="1">
 <div class="about-card" markdown="1">
 
 ## About Me
 
-Thanks for visiting my website! ✨ I am a 3rd year Ph.D. student at UNC Chapel Hill, <b>[MURGe-Lab](https://murgelab.cs.unc.edu/)</b> working with Prof. <b>[Mohit Bansal](https://www.cs.unc.edu/~mbansal/)</b>.
-Previously, I was advised by Prof. <b>[Jinkyu Kim](https://visionai.korea.ac.kr/)</b> at Korea University, Prof. <b>[Sung Ju Hwang](http://www.sungjuhwang.com/)</b> at KAIST. 
-I have also spent time as a Research Intern at <span class="text-accent-org">Adobe Research</span> (2025) and <span class="text-accent-org">Meta Superintelligence Labs</span> (2026), and will be joining <span class="text-accent-org">Google XR</span> as a Student Researcher in Dec 2026.
-
+I am a 3rd year Ph.D. student at UNC Chapel Hill (<b>[MURGe-Lab](https://murgelab.cs.unc.edu/)</b>), advised by Prof. <b>[Mohit Bansal](https://www.cs.unc.edu/~mbansal/)</b>, and have interned at <span class="text-accent-org">Adobe Research</span> and <span class="text-accent-org">Meta Superintelligence Labs</span>, joining <span class="text-accent-org">Google XR</span> in Dec 2026.
 
 </div>
+</section>
 
----
+<section id="research" class="block" markdown="1">
 
 ## Research Direction
-
-Here is my <b><a href="assets/files/Daeun_Research_Statement.pdf">Research Statement</a></b> 🔎 My current research interests include:
 
 - <span class="highlight"><b><u>Video (Multimodal) Reasoning, Generation, and Understanding</u></b></span>, with RL and post-training.
 - <span class="highlight"><b><u>Embodied AI with Diverse Sensor Modalities</u></b></span>, including gaze, audio, 3D LiDAR, HD maps, and other multimodal signals.
 
-💗 If you are working on fun ideas related to video, AR glasses, or egocentric perception and reasoning, I'd love to collaborate! 
+{% include vision.html %}
 
----
+</section>
+
+<section id="news" class="block" markdown="1">
 
 ## News
 
@@ -57,11 +57,18 @@ Here is my <b><a href="assets/files/Daeun_Research_Statement.pdf">Research State
   <div class="timeline-item"><span class="timeline-month">Dec</span> I finished my first research internship at <span class="text-accent-org">NAVER LABS</span>!</div>
 </div>
 
----
+</section>
 
 {% include_relative _includes/publications.md %}
 
+<section id="services" class="block" markdown="1">
+
 {% include_relative _includes/services.md %}
+
+</section>
+
+<section id="misc" class="block" markdown="1">
 
 {% include_relative _includes/ack.md %}
 
+</section>

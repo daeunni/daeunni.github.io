@@ -1,5 +1,7 @@
 main:
   - title: "IndustryNav: Exploring Spatial Reasoning of Embodied Agents in Dynamic Industrial Navigation"
+    key: industrynav
+    themes: [act]
     authors: Yifan Li, Lichi Li, Anh Dao, Xinyu Zhou, Yicheng Qiao, Zheda Mai, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Zichen Chen, Zhen Tan, Mohit Bansal, Yu Kong
     conference_short:
     conference: preprint
@@ -9,6 +11,8 @@ main:
     tagline: "Can robots reason about space in dynamic industrial environments?"
 
   - title: "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos"
+    key: streamgaze
+    themes: [sense]
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Subhojyoti Mukherjee, Branislav Kveton, Ryan A. Rossi, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Mohit Bansal
     conference_short: NeurIPS
     conference: The 40th Neural Information Processing Systems, Evaluations and Datasets Track <b>(NeurIPS)</b>, 2026.
@@ -19,6 +23,8 @@ main:
     tagline: "How far current streaming video understanding to AR glasses?"
 
   - title: "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting"
+    key: visioncoach
+    themes: [adapt]
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Shoubin Yu, Yue Zhang, Mohit Bansal
     conference_short: ECCV
     conference: European Conference on Computer Vision <b>(ECCV)</b>, 2026.
@@ -28,6 +34,8 @@ main:
     tagline: "Can grounded video reasoning models self-improve via visual prompting?"
 
   - title: "VideoRepair: Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement"
+    key: videorepair
+    themes: [adapt, act]
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jaehong Yoon, Jaemin Cho, Mohit Bansal
     conference_short: ACL Findings
     conference: The 64th Annual Meeting of the Association for Computational Linguistics <b>(ACL) Findings</b>, 2026.
@@ -37,6 +45,8 @@ main:
     tagline: "Can text-to-video models detect and self-repair their own errors?"
 
   - title: "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning"
+    key: videoskillcot
+    themes: [adapt]
     authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Jaemin Cho, Mohit Bansal
     conference_short: EMNLP Findings
     conference: Empirical Methods in Natural Language Processing <b>(EMNLP) Findings</b>, 2025.
@@ -46,6 +56,8 @@ main:
     tagline: "Can skill-based reasoning help video models adapt across domains?"
 
   - title: "BECoTTA: Input-dependent Online Blending of Experts for Continual Test-time Adaptation"
+    key: becotta
+    themes: [adapt]
     authors: <span class="highlight"><b><u>Daeun Lee*</u></b></span>, Jaehong Yoon*, Sung Ju Hwang
     conference_short: ICML
     conference: International Conference on Machine Learning <b>(ICML)</b>, 2024.
@@ -55,6 +67,8 @@ main:
     tagline: "Let's use mixture-of-domain experts for efficient continual test-time adaptation!"
 
   - title: "HD Maps are Lane Detection Generalizers: A Novel Generative Framework for Single-Source Domain Generalization"
+    key: hdmaps
+    themes: [sense]
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Minhyeok Heo, Jiwon Kim
     conference_short: CVPRW
     conference: CVPR Data-Driven Autonomous Driving Simulation Workshop <b>(CVPRW)</b>, 2024.
@@ -63,6 +77,8 @@ main:
     tagline: "Can HD maps teach lane detectors to generalize across domains?"
 
   - title: "Resolving Class Imbalance for LiDAR-based Object Detector by Dynamic Weight Average and Contextual Ground Truth Sampling"
+    key: lidar
+    themes: [sense]
     authors: <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jinkyu Kim
     conference_short: WACV
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <b>(WACV)</b>, 2023.
@@ -71,6 +87,8 @@ main:
     tagline: "How to detect rare objects in LiDAR point clouds?"
 
   - title: "Bridging the Domain Gap towards Generalization in Automatic Colorization"
+    key: colorization
+    themes: []
     authors: Hyejin Lee, Daehee Kim, <span class="highlight"><b><u>Daeun Lee</u></b></span>, Jinkyu Kim, Jaekoo Lee
     conference_short: ECCV
     conference: European Conference on Computer Vision <b>(ECCV)</b>, 2022.
