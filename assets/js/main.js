@@ -95,7 +95,7 @@
   Object.keys(navMap).forEach(function (id) { var s = document.getElementById(id); if (s) spy.observe(s); });
 
   /* ---------- section heading stickers ---------- */
-  var H2_EMOJI = { about: '🌷', research: '🔭', news: '📰', publications: '📚', services: '🤝', misc: '🎀' };
+  var H2_EMOJI = { about: '🌷', research: '🔭', news: '📰', publications: '📚', services: '💌', misc: '🎀' };
   Object.keys(H2_EMOJI).forEach(function (id) {
     var h = $('#' + id + ' h2');
     if (h) h.setAttribute('data-emoji', H2_EMOJI[id]);
@@ -128,16 +128,6 @@
       var done = function () { toast('💌 Copied ' + addr); burst(ev.clientX, ev.clientY, 8); };
       if (navigator.clipboard) navigator.clipboard.writeText(addr).then(done, function () { location.href = 'mailto:' + addr; });
       else location.href = 'mailto:' + addr;
-    });
-  }
-
-  /* ---------- avatar easter egg ---------- */
-  var avatar = $('#avatar'), avatarClicks = 0;
-  var HELLOS = ['안녕하세요! 👋', 'Hi, I\'m Dana! 🧸', 'Let\'s collaborate 💗', 'Sanrio fan club 🎀'];
-  if (avatar) {
-    avatar.addEventListener('click', function (ev) {
-      burst(ev.clientX, ev.clientY, 18);
-      toast(HELLOS[avatarClicks++ % HELLOS.length]);
     });
   }
 

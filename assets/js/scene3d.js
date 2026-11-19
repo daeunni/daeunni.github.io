@@ -9,14 +9,14 @@ import { mergeVertices } from './vendor/three/utils/BufferGeometryUtils.js';
 
 const PACK = 0.556;             // Quaternius interior pack units -> meters
 const ROOM = { w: 5, d: 4, h: 2.6 };
-const GAZE = new THREE.Color('#e0607e');
-const AUDIO = new THREE.Color('#e39a2d');
-const LIDAR = new THREE.Color('#2fa58a');
+const GAZE = new THREE.Color('#9b8bc0');
+const AUDIO = new THREE.Color('#d6a06a');
+const LIDAR = new THREE.Color('#7fae98');
 
 export async function initScene(root) {
   // Follow the page's accent color (CSS --accent) so the scene matches the theme.
   const cssAccent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
-  const ACCENT = new THREE.Color(cssAccent || '#3a56c5');
+  const ACCENT = new THREE.Color(cssAccent || '#9f5f78');
   const robotTrim = '#' + ACCENT.clone().offsetHSL(0, -0.1, -0.08).getHexString();
   const host = root.querySelector('.scene-3d');
   const base = root.getAttribute('data-models');
@@ -47,7 +47,7 @@ export async function initScene(root) {
   sun.shadow.bias = -0.0004;
   sun.shadow.normalBias = 0.02;
   scene.add(sun, sun.target);
-  const fill = new THREE.DirectionalLight('#dfe8ff', 0.5);
+  const fill = new THREE.DirectionalLight('#efe6f2', 0.5);
   fill.position.set(6, 4, 7);
   scene.add(fill);
 
@@ -172,7 +172,7 @@ export async function initScene(root) {
     Wood: ['#a0714a', 0.6, 0], Wood_Dark: ['#6e4a30', 0.6, 0],
     DarkRed: ['#c99a82', 0.95, 0], LightOrange: ['#efe2cf', 0.95, 0],
     Plant_Green: ['#5f9a4e', 0.8, 0], DarkGreen: ['#3f7a45', 0.8, 0], Black: ['#2e2e33', 0.6, 0],
-    Hair_Brown: ['#3a2a22', 0.7, 0], Orange: ['#4e6385', 0.85, 0], Grey: ['#e9e6e1', 0.7, 0],
+    Hair_Brown: ['#3a2a22', 0.7, 0], Orange: ['#977a8d', 0.85, 0], Grey: ['#e9e6e1', 0.7, 0],
   };
   function dress(obj, overrides = {}) {
     obj.traverse((o) => {

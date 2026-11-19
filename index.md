@@ -14,7 +14,7 @@ I am a 3rd year Ph.D. student at UNC Chapel Hill (<b>[MURGe-Lab](https://murgela
 
 <section id="research" class="block" markdown="1">
 
-## Research Direction
+## Research Direction <span class="h-deco" aria-hidden="true">₊˚⊹♡</span> {#research-direction}
 
 - <span class="highlight"><b><u>Video (Multimodal) Reasoning, Generation, and Understanding</u></b></span>, with RL and post-training.
 - <span class="highlight"><b><u>Embodied AI with Diverse Sensor Modalities</u></b></span>, including gaze, audio, 3D LiDAR, HD maps, and other multimodal signals.

@@ -13,8 +13,8 @@
     {% if site.canonical %}
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
-    <meta name="theme-color" content="#fcfbf9" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#131318" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#faf8f9" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#19161a" media="(prefers-color-scheme: dark)">
 
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
@@ -44,7 +44,6 @@
     <div class="scroll-progress" aria-hidden="true"></div>
 
     <nav class="topnav" aria-label="Sections">
-      <a class="nav-brand" href="#top" aria-label="Back to top"><img src="{{ site.favicon }}" alt=""></a>
       <div class="nav-links" id="nav-links">
         <a href="#about">About</a>
         <a href="#research">Research</a>
@@ -63,15 +62,15 @@
       <aside class="profile" id="top">
         <div class="hero-visual">
           {% if site.avatar %}
-          <button class="avatar-wrap" id="avatar" aria-label="Say hi!">
+          <div class="avatar-wrap" id="avatar">
             <img src="{{ site.avatar }}" alt="{{ site.title }}" />
-          </button>
+          </div>
           {% endif %}
         </div>
         <div class="profile-id">
-          <p class="hero-hello">Hi there, I'm <span class="wave">👋</span></p>
+          <p class="hero-hello">Hi there, I'm <span class="wave">👋🏻</span></p>
           <h1 class="hero-name">{{ site.title }}</h1>
-          <p class="hero-alias">다은 · or just call me <b>Dana</b></p>
+          <p class="hero-alias">다은 · <b>Dana</b></p>
           <p class="hero-role">
             {% if site.position %}<span>{{ site.position }}</span>{% endif %}
             {% if site.affiliation %}<span class="dot">·</span>{% if site.affiliation_link %}<a href="{{ site.affiliation_link }}" rel="noopener">{{ site.affiliation }}</a>{% else %}<span>{{ site.affiliation }}</span>{% endif %}{% endif %}
