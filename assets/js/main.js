@@ -168,6 +168,10 @@
       startAuto();
     });
 
+    // The 3D kitchen pauses the story while visitors play with the characters.
+    scene.addEventListener('scene:play', function () { userTouched = true; stopAuto(); });
+    scene.addEventListener('scene:story', function () { userTouched = false; setStep('sense'); startAuto(); });
+
     $$('.sensor-toggle').forEach(function (b) {
       b.addEventListener('click', function () {
         userTouched = true;
